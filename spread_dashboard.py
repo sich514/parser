@@ -37,11 +37,42 @@ class CanonicalSymbol:
 
 
 def discover_exchange_dbs() -> dict[str, Path]:
-    """Find all exchange DB files under project root."""
+    """Find exchange DB files under project root.
+
+    Recursive search allows future layouts like:
+    - exchange/exchange_futures_db.json
+    - exchange/data/exchange_futures_db.json
+
+    The exchange key is always taken from the first folder under ROOT.
+    """
     found: dict[str, Path] = {}
-    for db_path in ROOT.glob(f"*/{DB_PATTERN}"):
-        exchange = db_path.parent.name.lower()
-        found[exchange] = db_path
+
+    for db_path in ROOT.rglob(DB_PATTERN):
+        if not db_path.is_file():
+            continue
+
+        try:
+            rel = db_path.relative_to(ROOT)
+        except ValueError:
+            continue
+
+        if not rel.parts:
+            continue
+
+        exchange = rel.parts[0].lower()
+
+        # If multiple DB files are found for one exchange, prefer the one
+        # closest to the exchange root (shorter relative path).
+        current = found.get(exchange)
+        if current is None:
+            found[exchange] = db_path
+            continue
+
+        cur_rel_len = len(current.relative_to(ROOT).parts)
+        new_rel_len = len(rel.parts)
+        if new_rel_len < cur_rel_len:
+            found[exchange] = db_path
+
     return found
 
 
@@ -341,6 +372,11 @@ async function loadMeta() {
   const res = await fetch('/api/exchanges');
   const data = await res.json();
   renderExchanges(data.exchanges || []);
+
+  if ((data.exchanges || []).length < 2) {
+    const meta = document.getElementById('meta');
+    meta.textContent = `Найдена только 1 биржа. Проверьте наличие файлов *_futures_db.json. Текущее: ${(data.exchanges || []).join(', ') || '—'}`;
+  }
 }
 
 async function loadTable() {
@@ -418,8 +454,9 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if path == "/api/exchanges":
-            exchanges = sorted(discover_exchange_dbs())
-            self._send_json({"exchanges": exchanges})
+            exchange_map = discover_exchange_dbs()
+            exchanges = sorted(exchange_map)
+            self._send_json({"exchanges": exchanges, "db_files": {k: str(v) for k, v in exchange_map.items()}})
             return
 
         if path == "/api/spreads":
