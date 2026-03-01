@@ -7,9 +7,11 @@ Designed to be extensible: every folder with *_futures_db.json is treated as an 
 
 from __future__ import annotations
 
+import argparse
 import json
 import math
 import re
+import socket
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -18,8 +20,8 @@ from typing import Any
 from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parent
-HOST = "0.0.0.0"
-PORT = 8080
+DEFAULT_HOST = "0.0.0.0"
+DEFAULT_PORT = 8080
 DB_PATTERN = "*_futures_db.json"
 KNOWN_QUOTES = ("USDT", "VNDC", "BUSD", "USDC", "USD")
 # Real multiplier-style contracts are typically 10x/100x/1000x... and not
@@ -464,11 +466,32 @@ class Handler(BaseHTTPRequestHandler):
         self._send_json({"error": "not found"}, status=404)
 
 
-def run() -> None:
-    server = ThreadingHTTPServer((HOST, PORT), Handler)
-    print(f"Spread dashboard running at http://{HOST}:{PORT}")
+def run(host: str = DEFAULT_HOST, port: int = DEFAULT_PORT) -> None:
+    server = ThreadingHTTPServer((host, port), Handler)
+
+    print("Spread dashboard started.")
+    print(f"Bind address: {host}:{port}")
+    if host == "0.0.0.0":
+        print(f"Open in browser: http://127.0.0.1:{port}")
+        try:
+            lan_ip = socket.gethostbyname(socket.gethostname())
+            if lan_ip and lan_ip not in {"127.0.0.1", "0.0.0.0"}:
+                print(f"Or from LAN: http://{lan_ip}:{port}")
+        except OSError:
+            pass
+    else:
+        print(f"Open in browser: http://{host}:{port}")
+
     server.serve_forever()
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Futures spread web dashboard")
+    parser.add_argument("--host", default=DEFAULT_HOST, help="bind host (default: 0.0.0.0)")
+    parser.add_argument("--port", type=int, default=DEFAULT_PORT, help="bind port (default: 8080)")
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    run()
+    args = parse_args()
+    run(host=args.host, port=args.port)
