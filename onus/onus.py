@@ -12,7 +12,7 @@ EXCHANGE_INFO_URL = "https://api-pro.goonus.io/market/v2/exchangeInfo"
 SPOT_RATE_URL = "https://spot-markets.goonus.io/ticker-stats?names=USDT_VNDC"
 
 RATE_FILE = "vdncusdt.json"
-DB_FILE = "futures_db.json"
+DB_FILE = "onus_futures_db.json"
 
 MARKET_INTERVAL = 1
 RATE_INTERVAL = 10
@@ -146,3 +146,4 @@ if __name__ == "__main__":
 
 
         time.sleep(MARKET_INTERVAL)
+
