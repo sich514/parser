@@ -22,6 +22,9 @@ HOST = "0.0.0.0"
 PORT = 8080
 DB_PATTERN = "*_futures_db.json"
 KNOWN_QUOTES = ("USDT", "VNDC", "BUSD", "USDC", "USD")
+# Real multiplier-style contracts are typically 10x/100x/1000x... and not
+# ticker suffixes like C98.
+MIN_MULTIPLIER = 10
 
 
 @dataclass(frozen=True)
@@ -60,15 +63,26 @@ def parse_symbol(symbol: str) -> CanonicalSymbol:
 
     multiplier = 1
 
+    def is_valid_multiplier(raw: str) -> bool:
+        """Allow only realistic contract multipliers (10, 100, 1000, ...)."""
+        try:
+            value = int(raw)
+        except ValueError:
+            return False
+        if value < MIN_MULTIPLIER:
+            return False
+        # treat multiplier as power-of-10 style to avoid false positives (e.g. C98)
+        return set(raw) == {"1", "0"} and raw[0] == "1"
+
     # Prefix multiplier: 1000PEPE
     prefix = re.match(r"^(\d+)([A-Z]+)$", body)
-    if prefix:
+    if prefix and is_valid_multiplier(prefix.group(1)):
         multiplier = int(prefix.group(1))
         body = prefix.group(2)
 
     # Suffix multiplier: PEPE1000
     suffix = re.match(r"^([A-Z]+)(\d+)$", body)
-    if suffix:
+    if suffix and is_valid_multiplier(suffix.group(2)):
         body = suffix.group(1)
         multiplier = int(suffix.group(2))
 
