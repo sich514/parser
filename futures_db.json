@@ -1,0 +1,4826 @@
+[
+    {
+        "symbol": "BIOUSDT",
+        "price_usdt": 0.0209224,
+        "funding_rate": -0.043674,
+        "funding_interval": 4,
+        "volume_usdt": 56154.4392339,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "JTOUSDT",
+        "price_usdt": 0.2688,
+        "funding_rate": -0.020471,
+        "funding_interval": 4,
+        "volume_usdt": 214987.6588,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MIAVNDC",
+        "price_usdt": 0.00149374,
+        "funding_rate": -0.00292673907731,
+        "funding_interval": 4,
+        "volume_usdt": 25367.200913083332,
+        "maxLoSize": 3840000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LUNC1000VNDC",
+        "price_usdt": 0.03930186,
+        "funding_rate": -0.007396,
+        "funding_interval": 8,
+        "volume_usdt": 1656022.7540333334,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MEON1000VNDC",
+        "price_usdt": 0.00012735,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 3335.467783275,
+        "maxLoSize": 5400000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BTCVNDC",
+        "price_usdt": 60072.38218036,
+        "funding_rate": 0.002481,
+        "funding_interval": 8,
+        "volume_usdt": 65061384.49905223,
+        "maxLoSize": 9.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RONINVNDC",
+        "price_usdt": 0.09178906,
+        "funding_rate": 0.004627,
+        "funding_interval": 4,
+        "volume_usdt": 30391.022291666668,
+        "maxLoSize": 36000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TMNVNDC",
+        "price_usdt": 6.656e-05,
+        "funding_rate": 0.04485662239587,
+        "funding_interval": 4,
+        "volume_usdt": 16521.230348625,
+        "maxLoSize": 67500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SXTVNDC",
+        "price_usdt": 0.01885787,
+        "funding_rate": -0.026127,
+        "funding_interval": 4,
+        "volume_usdt": 272452.1579176047,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "IOTAVNDC",
+        "price_usdt": 0.0605449,
+        "funding_rate": 0.00849,
+        "funding_interval": 8,
+        "volume_usdt": 38579.457775,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NMRVNDC",
+        "price_usdt": 6.85450536,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 224877.30858333333,
+        "maxLoSize": 400.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PIKACHUMEMEVNDC",
+        "price_usdt": 0.01184386,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 14391.178859893378,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LITVNDC",
+        "price_usdt": 0.0,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 0.0,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HESVNDC",
+        "price_usdt": 0.00065833,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 78801.35908358333,
+        "maxLoSize": 9000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "VANAUSDT",
+        "price_usdt": 1.456,
+        "funding_rate": -0.005456,
+        "funding_interval": 4,
+        "volume_usdt": 122085.433,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FOLKSVNDC",
+        "price_usdt": 1.2839257,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 50815.137977353465,
+        "maxLoSize": 600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STOVNDC",
+        "price_usdt": 0.06323728,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 42127.49953857107,
+        "maxLoSize": 48000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BIGTIMEVNDC",
+        "price_usdt": 0.01264716,
+        "funding_rate": -0.022118,
+        "funding_interval": 4,
+        "volume_usdt": 9184.712541666666,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "C98VNDC",
+        "price_usdt": 0.02368352,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 26365.977379166667,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WIFUSDT",
+        "price_usdt": 0.198,
+        "funding_rate": -0.018811,
+        "funding_interval": 4,
+        "volume_usdt": 2021367.5922,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RDNTVNDC",
+        "price_usdt": 0.00466644,
+        "funding_rate": -0.018762,
+        "funding_interval": 8,
+        "volume_usdt": 30170.861729583332,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SOLVUSDT",
+        "price_usdt": 0.00479,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 19135.22878,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ARCUSDT",
+        "price_usdt": 0.03752,
+        "funding_rate": -0.00655,
+        "funding_interval": 4,
+        "volume_usdt": 579889.79822,
+        "maxLoSize": 50000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ENSVNDC",
+        "price_usdt": 5.49478641,
+        "funding_rate": -0.018317,
+        "funding_interval": 8,
+        "volume_usdt": 513766.22225,
+        "maxLoSize": 1440.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BNBUSDT",
+        "price_usdt": 629.31,
+        "funding_rate": 0.00293152675423,
+        "funding_interval": 8,
+        "volume_usdt": 563054.54021,
+        "maxLoSize": 20.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TONVNDC",
+        "price_usdt": 1.10386067,
+        "funding_rate": -0.022313,
+        "funding_interval": 4,
+        "volume_usdt": 247922.89270833333,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CELOVNDC",
+        "price_usdt": 0.07183167,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 59456.152083333334,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CAKEVNDC",
+        "price_usdt": 1.18641851,
+        "funding_rate": 0.001617,
+        "funding_interval": 4,
+        "volume_usdt": 377458.34041666664,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CLOVNDC",
+        "price_usdt": 0.06914378,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 137138.0471447602,
+        "maxLoSize": 10000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XLMUSDT",
+        "price_usdt": 0.15841,
+        "funding_rate": 0.005169,
+        "funding_interval": 8,
+        "volume_usdt": 191831.86335,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CROSSVNDC",
+        "price_usdt": 0.09991068,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 50641.46338701918,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RAVEVNDC",
+        "price_usdt": 0.36668535,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 425645.1095766726,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "INJVNDC",
+        "price_usdt": 2.74914976,
+        "funding_rate": -0.002916,
+        "funding_interval": 8,
+        "volume_usdt": 257032.102875,
+        "maxLoSize": 2520.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EIGENUSDT",
+        "price_usdt": 0.1822,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 6643.0736,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TONUSDT",
+        "price_usdt": 1.2327,
+        "funding_rate": -0.022313,
+        "funding_interval": 4,
+        "volume_usdt": 256204.6938,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BOMEVNDC",
+        "price_usdt": 0.00034869,
+        "funding_rate": -0.002175,
+        "funding_interval": 4,
+        "volume_usdt": 22223.66122875,
+        "maxLoSize": 19200000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ATVNDC",
+        "price_usdt": 0.1554696,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 30196.926402457077,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LINKVNDC",
+        "price_usdt": 8.03199163,
+        "funding_rate": 0.001506,
+        "funding_interval": 8,
+        "volume_usdt": 2028054.4810175,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AXSVNDC",
+        "price_usdt": 1.17098329,
+        "funding_rate": -0.038591,
+        "funding_interval": 4,
+        "volume_usdt": 99719.52979166666,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BERAUSDT",
+        "price_usdt": 0.6076,
+        "funding_rate": -0.004743,
+        "funding_interval": 4,
+        "volume_usdt": 126653.2554,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PUGSUSDT",
+        "price_usdt": 5.74e-06,
+        "funding_rate": 0.04953512973793,
+        "funding_interval": 4,
+        "volume_usdt": 27393.37376131,
+        "maxLoSize": 400000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XPLVNDC",
+        "price_usdt": 0.09889001,
+        "funding_rate": -0.00063,
+        "funding_interval": 4,
+        "volume_usdt": 381304.02142180095,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TRUVNDC",
+        "price_usdt": 0.00415966,
+        "funding_rate": 0.045264,
+        "funding_interval": 8,
+        "volume_usdt": 762300.166025,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "1000CATUSDT",
+        "price_usdt": 0.00169,
+        "funding_rate": 0.01937484154873,
+        "funding_interval": 4,
+        "volume_usdt": 39174.33843,
+        "maxLoSize": 1500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GOATVNDC",
+        "price_usdt": 0.01605561,
+        "funding_rate": -0.087546,
+        "funding_interval": 4,
+        "volume_usdt": 46506.999062083334,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WCTVNDC",
+        "price_usdt": 0.05719999,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 12796.203544420712,
+        "maxLoSize": 75000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MUBARAKVNDC",
+        "price_usdt": 0.01321822,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 78723.75022897826,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STRKUSDT",
+        "price_usdt": 0.0409,
+        "funding_rate": -0.004786,
+        "funding_interval": 4,
+        "volume_usdt": 302591.8731,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BIOVNDC",
+        "price_usdt": 0.01875547,
+        "funding_rate": -0.043674,
+        "funding_interval": 4,
+        "volume_usdt": 76139.48383125,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SYNVNDC",
+        "price_usdt": 0.04352132,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 673.428025,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ADAUSDT",
+        "price_usdt": 0.28131,
+        "funding_rate": -0.003195,
+        "funding_interval": 8,
+        "volume_usdt": 245477.24693,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PAXGUSDT",
+        "price_usdt": 5385.12,
+        "funding_rate": -0.017045,
+        "funding_interval": 4,
+        "volume_usdt": 334778.10586,
+        "maxLoSize": 6.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MMAVNDC",
+        "price_usdt": 0.02821138,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 84522.20989995834,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SOPHVNDC",
+        "price_usdt": 0.00896625,
+        "funding_rate": -0.005274,
+        "funding_interval": 4,
+        "volume_usdt": 102143.86283823049,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LISTAUSDT",
+        "price_usdt": 0.0833,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 99291.9568,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MERLVNDC",
+        "price_usdt": 0.03628957,
+        "funding_rate": -0.001396,
+        "funding_interval": 4,
+        "volume_usdt": 80209.78279166667,
+        "maxLoSize": 18000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SHIB1000USDT",
+        "price_usdt": 0.005658,
+        "funding_rate": 0.00724719304239,
+        "funding_interval": 8,
+        "volume_usdt": 319279.713247,
+        "maxLoSize": 1500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TOMVNDC",
+        "price_usdt": 0.00032716,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 23909.64404519804,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ICNTVNDC",
+        "price_usdt": 0.3581616,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 59279.7524270238,
+        "maxLoSize": 7500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GRTVNDC",
+        "price_usdt": 0.02332474,
+        "funding_rate": 0.004618,
+        "funding_interval": 8,
+        "volume_usdt": 276788.19276666665,
+        "maxLoSize": 360000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SUIUSDT",
+        "price_usdt": 0.9157,
+        "funding_rate": 0.003764,
+        "funding_interval": 8,
+        "volume_usdt": 1435840.8744,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MUBARAKUSDT",
+        "price_usdt": 0.01363,
+        "funding_rate": 0.00523789853869,
+        "funding_interval": 4,
+        "volume_usdt": 786602.78671,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SAFEUSDT",
+        "price_usdt": 0.104,
+        "funding_rate": -0.014408,
+        "funding_interval": 4,
+        "volume_usdt": 17108.9567,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BULLAVNDC",
+        "price_usdt": 0.02499608,
+        "funding_rate": 0.146168,
+        "funding_interval": 4,
+        "volume_usdt": 611335.7788931864,
+        "maxLoSize": 80000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ETHWVNDC",
+        "price_usdt": 0.27678738,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 45523.45333333333,
+        "maxLoSize": 21600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MOVEVNDC",
+        "price_usdt": 0.01969578,
+        "funding_rate": -0.017282,
+        "funding_interval": 4,
+        "volume_usdt": 21061.536333333333,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GMXVNDC",
+        "price_usdt": 6.16302276,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 18862.897846666667,
+        "maxLoSize": 400.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MOODENGUSDT",
+        "price_usdt": 0.04959,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 105717.95931,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SIGNUSDT",
+        "price_usdt": 0.02767,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 613319.92533,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RUNEVNDC",
+        "price_usdt": 0.36046642,
+        "funding_rate": 0.006858,
+        "funding_interval": 8,
+        "volume_usdt": 166577.44233333334,
+        "maxLoSize": 13500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SYNUSDT",
+        "price_usdt": 0.0486,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 14003.116,
+        "maxLoSize": 75000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SPKVNDC",
+        "price_usdt": 0.01876406,
+        "funding_rate": -0.003477,
+        "funding_interval": 4,
+        "volume_usdt": 103744.65649444862,
+        "maxLoSize": 360000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZKPVNDC",
+        "price_usdt": 0.0973506,
+        "funding_rate": -0.06414798581356,
+        "funding_interval": 4,
+        "volume_usdt": 476829.70771906455,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ORCAUSDT",
+        "price_usdt": 0.882,
+        "funding_rate": -0.036109,
+        "funding_interval": 4,
+        "volume_usdt": 6563.472,
+        "maxLoSize": 7200.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RAREUSDT",
+        "price_usdt": 0.01634,
+        "funding_rate": -0.069747,
+        "funding_interval": 4,
+        "volume_usdt": 194400.42544,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CYBERUSDT",
+        "price_usdt": 0.55,
+        "funding_rate": -0.022919,
+        "funding_interval": 4,
+        "volume_usdt": 13282.15,
+        "maxLoSize": 10800.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AGLDVNDC",
+        "price_usdt": 0.20129312,
+        "funding_rate": -0.082381,
+        "funding_interval": 8,
+        "volume_usdt": 94186.164875,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TEMUVNDC",
+        "price_usdt": 8.693e-05,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 4145.131432458334,
+        "maxLoSize": 48000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ORCAVNDC",
+        "price_usdt": 0.79209179,
+        "funding_rate": -0.036109,
+        "funding_interval": 4,
+        "volume_usdt": 42272.686583333336,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BABY3VNDC",
+        "price_usdt": 0.0027154,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 42686.75454375,
+        "maxLoSize": 2100000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NEOVNDC",
+        "price_usdt": 2.39671862,
+        "funding_rate": 0.009478,
+        "funding_interval": 8,
+        "volume_usdt": 397792.7640833333,
+        "maxLoSize": 4500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NEARUSDT",
+        "price_usdt": 1.158,
+        "funding_rate": -0.007337,
+        "funding_interval": 8,
+        "volume_usdt": 132350.253,
+        "maxLoSize": 7500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "VANAVNDC",
+        "price_usdt": 1.30418208,
+        "funding_rate": -0.005456,
+        "funding_interval": 4,
+        "volume_usdt": 108563.23283333333,
+        "maxLoSize": 1500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ONSVNDC",
+        "price_usdt": 0.00051415,
+        "funding_rate": 0.05,
+        "funding_interval": 8,
+        "volume_usdt": 24179.345758958334,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PLAYVNDC",
+        "price_usdt": 0.0192214,
+        "funding_rate": 0.029327,
+        "funding_interval": 4,
+        "volume_usdt": 134187.30205914692,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FORTUNEVNDC",
+        "price_usdt": 0.00184782,
+        "funding_rate": 0.0014514113172,
+        "funding_interval": 4,
+        "volume_usdt": 44962.6371095,
+        "maxLoSize": 6750000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "APEVNDC",
+        "price_usdt": 0.09220017,
+        "funding_rate": -0.046719,
+        "funding_interval": 8,
+        "volume_usdt": 113114.58541666667,
+        "maxLoSize": 18000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PIUSDT",
+        "price_usdt": 0.1696,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 50120.982,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MCAKEUSDT",
+        "price_usdt": 0.01081,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 4606.08761,
+        "maxLoSize": 240000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FARTCOINVNDC",
+        "price_usdt": 0.14284113,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 94656.10675,
+        "maxLoSize": 18000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EGPT1000USDT",
+        "price_usdt": 0.00575,
+        "funding_rate": 0.04880638946318,
+        "funding_interval": 4,
+        "volume_usdt": 51662.33866,
+        "maxLoSize": 840000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NEARVNDC",
+        "price_usdt": 1.03819561,
+        "funding_rate": -0.007337,
+        "funding_interval": 8,
+        "volume_usdt": 553071.2519583333,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NTRNVNDC",
+        "price_usdt": 0.0101693,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 933025.7505541666,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BEATVNDC",
+        "price_usdt": 0.23818066,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 401192.33584961516,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PIVNDC",
+        "price_usdt": 0.15196023,
+        "funding_rate": 0.00431697515528,
+        "funding_interval": 4,
+        "volume_usdt": 1086234.40425,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XRPVNDC",
+        "price_usdt": 1.23892813,
+        "funding_rate": -0.004718,
+        "funding_interval": 8,
+        "volume_usdt": 5478848.7196375,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ACEUSDT",
+        "price_usdt": 0.1467,
+        "funding_rate": -0.107918,
+        "funding_interval": 4,
+        "volume_usdt": 53982.2693,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CRVVNDC",
+        "price_usdt": 0.22240909,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 29520.176125,
+        "maxLoSize": 37800.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STXVNDC",
+        "price_usdt": 0.23141608,
+        "funding_rate": 0.004502,
+        "funding_interval": 8,
+        "volume_usdt": 1314652.5495,
+        "maxLoSize": 36000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ETHVNDC",
+        "price_usdt": 1797.74077811,
+        "funding_rate": 0.005023,
+        "funding_interval": 8,
+        "volume_usdt": 30258844.87459579,
+        "maxLoSize": 150.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "METISVNDC",
+        "price_usdt": 2.81825317,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 76929.91281666666,
+        "maxLoSize": 600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LTCVNDC",
+        "price_usdt": 48.72949135,
+        "funding_rate": -0.001367,
+        "funding_interval": 8,
+        "volume_usdt": 327554.19099541666,
+        "maxLoSize": 270.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ALLOUSDT",
+        "price_usdt": 0.1107,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 89648.0926,
+        "maxLoSize": 50000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CETUSVNDC",
+        "price_usdt": 0.01459805,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 138776.06202083334,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AINVNDC",
+        "price_usdt": 0.03848787,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 68427.3861294233,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CYBERVNDC",
+        "price_usdt": 0.49302986,
+        "funding_rate": -0.022919,
+        "funding_interval": 4,
+        "volume_usdt": 71565.49245833333,
+        "maxLoSize": 5000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MINAVNDC",
+        "price_usdt": 0.05108196,
+        "funding_rate": -0.004174,
+        "funding_interval": 8,
+        "volume_usdt": 11450.483683333334,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NILVNDC",
+        "price_usdt": 0.0455507,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 12084.359352691028,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "JELLYJELLYUSDT",
+        "price_usdt": 0.06934,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 120679.6584,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AVAAIUSDT",
+        "price_usdt": 0.00738,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 6176.64119,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "UNIUSDT",
+        "price_usdt": 3.827,
+        "funding_rate": -0.002125,
+        "funding_interval": 8,
+        "volume_usdt": 90813.512,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SEIUSDT",
+        "price_usdt": 0.0691,
+        "funding_rate": -0.021218,
+        "funding_interval": 8,
+        "volume_usdt": 829144.7065,
+        "maxLoSize": 96000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CATIUSDT",
+        "price_usdt": 0.03923,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 25484.59772,
+        "maxLoSize": 210000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LINKUSDT",
+        "price_usdt": 8.96,
+        "funding_rate": 0.001506,
+        "funding_interval": 8,
+        "volume_usdt": 907147.26971,
+        "maxLoSize": 1500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FILVNDC",
+        "price_usdt": 0.88440408,
+        "funding_rate": -0.00112,
+        "funding_interval": 8,
+        "volume_usdt": 115647.88415416666,
+        "maxLoSize": 4500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ETCVNDC",
+        "price_usdt": 7.76226782,
+        "funding_rate": 0.000515,
+        "funding_interval": 8,
+        "volume_usdt": 321736.01005416666,
+        "maxLoSize": 1500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DYMVNDC",
+        "price_usdt": 0.03270172,
+        "funding_rate": -0.014333,
+        "funding_interval": 4,
+        "volume_usdt": 20207.819708333333,
+        "maxLoSize": 108000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KMNOUSDT",
+        "price_usdt": 0.02175,
+        "funding_rate": -0.014255,
+        "funding_interval": 4,
+        "volume_usdt": 151262.16253,
+        "maxLoSize": 360000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NEIROVNDC",
+        "price_usdt": 6.14e-05,
+        "funding_rate": 0.003641,
+        "funding_interval": 4,
+        "volume_usdt": 18177.0065370375,
+        "maxLoSize": 94500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CGPTVNDC",
+        "price_usdt": 0.01889599,
+        "funding_rate": 0.001072,
+        "funding_interval": 4,
+        "volume_usdt": 175057.70724583333,
+        "maxLoSize": 100000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AIXBTUSDT",
+        "price_usdt": 0.02102,
+        "funding_rate": -0.031936,
+        "funding_interval": 4,
+        "volume_usdt": 149571.74807,
+        "maxLoSize": 270000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "OPVNDC",
+        "price_usdt": 0.11129798,
+        "funding_rate": 0.004591,
+        "funding_interval": 8,
+        "volume_usdt": 205231.676207375,
+        "maxLoSize": 54000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BCHVNDC",
+        "price_usdt": 402.58934111,
+        "funding_rate": -0.031497,
+        "funding_interval": 8,
+        "volume_usdt": 1715854.8053716666,
+        "maxLoSize": 30.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BABYDOGE1MUSDT",
+        "price_usdt": 0.0003875,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 270204.1004615,
+        "maxLoSize": 12000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZORAVNDC",
+        "price_usdt": 0.01775076,
+        "funding_rate": -0.044158,
+        "funding_interval": 4,
+        "volume_usdt": 21090.519006600087,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XAUTUSDT",
+        "price_usdt": 5342.91,
+        "funding_rate": -0.01770200835295,
+        "funding_interval": 4,
+        "volume_usdt": 432195.76785,
+        "maxLoSize": 6.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KAITOUSDT",
+        "price_usdt": 0.3375,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 103787.6707,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "METVNDC",
+        "price_usdt": 0.18247935,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 26303.476882447965,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COTIVNDC",
+        "price_usdt": 0.01034869,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 80643.6424375,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RAYVNDC",
+        "price_usdt": 0.5382143,
+        "funding_rate": -0.01295498544756,
+        "funding_interval": 8,
+        "volume_usdt": 46496.811083333334,
+        "maxLoSize": 4500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XAGXVNDC",
+        "price_usdt": 95.83002579,
+        "funding_rate": 0.409343,
+        "funding_interval": 4,
+        "volume_usdt": 704386.550330669,
+        "maxLoSize": 600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DYDXVNDC",
+        "price_usdt": 0.0827447,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 44577.61191666667,
+        "maxLoSize": 24000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BONK1000VNDC",
+        "price_usdt": 0.00535826,
+        "funding_rate": 0.00490246263619,
+        "funding_interval": 4,
+        "volume_usdt": 88071.97031045833,
+        "maxLoSize": 1500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KMNOVNDC",
+        "price_usdt": 0.01949994,
+        "funding_rate": -0.014255,
+        "funding_interval": 4,
+        "volume_usdt": 132252.11750208333,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PEPE1000VNDC",
+        "price_usdt": 0.00315899,
+        "funding_rate": -0.1126115471165,
+        "funding_interval": 8,
+        "volume_usdt": 2352697.4415036165,
+        "maxLoSize": 3600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COMPVNDC",
+        "price_usdt": 16.10939193,
+        "funding_rate": -0.014137,
+        "funding_interval": 8,
+        "volume_usdt": 222686.21894916668,
+        "maxLoSize": 600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MELANIAVNDC",
+        "price_usdt": 0.11321299,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 90366.82796921255,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "JTOVNDC",
+        "price_usdt": 0.24109579,
+        "funding_rate": -0.020471,
+        "funding_interval": 4,
+        "volume_usdt": 98951.40930416666,
+        "maxLoSize": 21000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TRBVNDC",
+        "price_usdt": 12.68116754,
+        "funding_rate": 0.004453,
+        "funding_interval": 4,
+        "volume_usdt": 290677.68450833333,
+        "maxLoSize": 450.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SONICUSDT",
+        "price_usdt": 0.0446,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 53040.3471,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ETHFIVNDC",
+        "price_usdt": 0.45199387,
+        "funding_rate": 0.003105,
+        "funding_interval": 4,
+        "volume_usdt": 351290.847,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COWVNDC",
+        "price_usdt": 0.19294017,
+        "funding_rate": -0.026693,
+        "funding_interval": 4,
+        "volume_usdt": 20177.01716666667,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MTLVNDC",
+        "price_usdt": 0.25014015,
+        "funding_rate": -0.00384,
+        "funding_interval": 8,
+        "volume_usdt": 145087.277125,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GIFTUSDT",
+        "price_usdt": 0.001507,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 20937.327227,
+        "maxLoSize": 3020000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MANTAVNDC",
+        "price_usdt": 0.05486415,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 35651.462625,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TRBUSDT",
+        "price_usdt": 14.13,
+        "funding_rate": 0.004453,
+        "funding_interval": 4,
+        "volume_usdt": 687975.3757,
+        "maxLoSize": 720.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "POLYXVNDC",
+        "price_usdt": 0.03836753,
+        "funding_rate": -0.005541,
+        "funding_interval": 4,
+        "volume_usdt": 158108.365825,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FFVNDC",
+        "price_usdt": 0.07703741,
+        "funding_rate": -0.000308,
+        "funding_interval": 4,
+        "volume_usdt": 36592.597743317536,
+        "maxLoSize": 50000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GLMVNDC",
+        "price_usdt": 0.12026386,
+        "funding_rate": -0.028734,
+        "funding_interval": 4,
+        "volume_usdt": 569146.7959458333,
+        "maxLoSize": 75000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MMTUSDT",
+        "price_usdt": 0.1199,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 21673.9046,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TRXVNDC",
+        "price_usdt": 0.25267033,
+        "funding_rate": -0.020183,
+        "funding_interval": 8,
+        "volume_usdt": 137815.39642083333,
+        "maxLoSize": 94500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ATUSDT",
+        "price_usdt": 0.154,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 55536.88,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "OGNVNDC",
+        "price_usdt": 0.01758045,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 15379.682166666667,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XRPUSDT",
+        "price_usdt": 1.3827,
+        "funding_rate": -0.004718,
+        "funding_interval": 8,
+        "volume_usdt": 2673040.7497,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "POWRVNDC",
+        "price_usdt": 0.05610494,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 9484.1749625,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "OKBVNDC",
+        "price_usdt": 77.52386291,
+        "funding_rate": -0.01359468007059,
+        "funding_interval": 4,
+        "volume_usdt": 64980.56668590882,
+        "maxLoSize": 120.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SNXVNDC",
+        "price_usdt": 0.28751355,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 525015.1616666666,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZETAVNDC",
+        "price_usdt": 0.04798744,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 27386.432708333334,
+        "maxLoSize": 20000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HIGHVNDC",
+        "price_usdt": 0.12516351,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 132468.39970833334,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PNUTVNDC",
+        "price_usdt": 0.04015024,
+        "funding_rate": 0.001737,
+        "funding_interval": 4,
+        "volume_usdt": 92745.37371666667,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ARKMVNDC",
+        "price_usdt": 0.09631125,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 36181.703708333334,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TIAVNDC",
+        "price_usdt": 0.28998767,
+        "funding_rate": -0.001306,
+        "funding_interval": 4,
+        "volume_usdt": 697341.2676333333,
+        "maxLoSize": 9600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CTSIVNDC",
+        "price_usdt": 0.02156445,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 41152.88333333333,
+        "maxLoSize": 100000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AEVOVNDC",
+        "price_usdt": 0.01988265,
+        "funding_rate": 0.000392,
+        "funding_interval": 4,
+        "volume_usdt": 53939.15604166667,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ETCUSDT",
+        "price_usdt": 8.66,
+        "funding_rate": 0.000515,
+        "funding_interval": 8,
+        "volume_usdt": 273403.663,
+        "maxLoSize": 1200.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DOGTUSDT",
+        "price_usdt": 0.019321,
+        "funding_rate": 0.0433541190526,
+        "funding_interval": 4,
+        "volume_usdt": 18243.87842,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ONX1000VNDC",
+        "price_usdt": 0.00115245,
+        "funding_rate": -0.08140490695765,
+        "funding_interval": 8,
+        "volume_usdt": 16874.816322791667,
+        "maxLoSize": 5000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XAIVNDC",
+        "price_usdt": 0.00840901,
+        "funding_rate": -0.008477,
+        "funding_interval": 4,
+        "volume_usdt": 27930.342008333333,
+        "maxLoSize": 420000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MOVEUSDT",
+        "price_usdt": 0.022,
+        "funding_rate": -0.017282,
+        "funding_interval": 4,
+        "volume_usdt": 58588.2895,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GIFTVNDC",
+        "price_usdt": 0.00135067,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 20388.480225416668,
+        "maxLoSize": 5040000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "QTUMVNDC",
+        "price_usdt": 0.81354412,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 71981.47566666667,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MEMEVNDC",
+        "price_usdt": 0.00053332,
+        "funding_rate": -0.000466,
+        "funding_interval": 4,
+        "volume_usdt": 70597.31757375,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BNBVNDC",
+        "price_usdt": 564.36132601,
+        "funding_rate": -0.00057890443991,
+        "funding_interval": 8,
+        "volume_usdt": 755385.2102793333,
+        "maxLoSize": 25.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GRASSVNDC",
+        "price_usdt": 0.23971297,
+        "funding_rate": -0.024795,
+        "funding_interval": 4,
+        "volume_usdt": 410168.31104166666,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CELRVNDC",
+        "price_usdt": 0.00228725,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 5051.221691666667,
+        "maxLoSize": 1200000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "VIRTUALVNDC",
+        "price_usdt": 0.63680532,
+        "funding_rate": -0.028039,
+        "funding_interval": 4,
+        "volume_usdt": 602269.2997083333,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PEOPLEVNDC",
+        "price_usdt": 0.00570916,
+        "funding_rate": 0.007278,
+        "funding_interval": 8,
+        "volume_usdt": 185465.26833041667,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CFXVNDC",
+        "price_usdt": 0.04327839,
+        "funding_rate": 0.008925,
+        "funding_interval": 8,
+        "volume_usdt": 86244.02254166667,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PEOPLEUSDT",
+        "price_usdt": 0.00637,
+        "funding_rate": 0.007278,
+        "funding_interval": 8,
+        "volume_usdt": 318899.55727,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HOLOVNDC",
+        "price_usdt": 0.06185671,
+        "funding_rate": -0.22700168646081,
+        "funding_interval": 4,
+        "volume_usdt": 278147.1034729858,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LISTAVNDC",
+        "price_usdt": 0.07478417,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 130088.04583333334,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HVNDC",
+        "price_usdt": 0.11922488,
+        "funding_rate": 0.015864,
+        "funding_interval": 4,
+        "volume_usdt": 225840.5122045835,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WLFIVNDC",
+        "price_usdt": 0.10912285,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 430067.6270293839,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ARKVNDC",
+        "price_usdt": 0.15950966,
+        "funding_rate": -0.020112,
+        "funding_interval": 4,
+        "volume_usdt": 42318.24545833333,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZKVNDC",
+        "price_usdt": 0.01704638,
+        "funding_rate": -0.011739,
+        "funding_interval": 4,
+        "volume_usdt": 79153.51287375,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MONVNDC",
+        "price_usdt": 0.02206895,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 102201.56051716993,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PIXELUSDT",
+        "price_usdt": 0.00479,
+        "funding_rate": -0.001515,
+        "funding_interval": 4,
+        "volume_usdt": 17450.32545,
+        "maxLoSize": 480000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "VCTVNDC",
+        "price_usdt": 0.00108588,
+        "funding_rate": 0.01997644960938,
+        "funding_interval": 4,
+        "volume_usdt": 3800.756899090227,
+        "maxLoSize": 6000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HBARUSDT",
+        "price_usdt": 0.099679,
+        "funding_rate": 0.004055,
+        "funding_interval": 8,
+        "volume_usdt": 139440.85542,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZKCVNDC",
+        "price_usdt": 0.08468812,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 16863.771033175355,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZRXVNDC",
+        "price_usdt": 0.09454348,
+        "funding_rate": -0.005996,
+        "funding_interval": 4,
+        "volume_usdt": 328021.25872083334,
+        "maxLoSize": 54000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MORPHOVNDC",
+        "price_usdt": 1.56183429,
+        "funding_rate": 0.002155,
+        "funding_interval": 4,
+        "volume_usdt": 318342.27329166664,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NIGHTVNDC",
+        "price_usdt": 0.05835445,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 86545.64958111309,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MAVVNDC",
+        "price_usdt": 0.01244534,
+        "funding_rate": 0.000606,
+        "funding_interval": 8,
+        "volume_usdt": 28098.792333333335,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PENDLEVNDC",
+        "price_usdt": 1.15782786,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 498405.76279166667,
+        "maxLoSize": 4500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "POPCATUSDT",
+        "price_usdt": 0.04739,
+        "funding_rate": -0.007039,
+        "funding_interval": 4,
+        "volume_usdt": 117027.24999,
+        "maxLoSize": 50400.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZETAUSDT",
+        "price_usdt": 0.0539,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 24013.7396,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "2ZVNDC",
+        "price_usdt": 0.07313974,
+        "funding_rate": -0.003089,
+        "funding_interval": 4,
+        "volume_usdt": 30714.58930805687,
+        "maxLoSize": 20000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BLURVNDC",
+        "price_usdt": 0.01795792,
+        "funding_rate": -0.016235,
+        "funding_interval": 8,
+        "volume_usdt": 63053.83477916667,
+        "maxLoSize": 360000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MEVNDC",
+        "price_usdt": 0.10501925,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 34868.176458333335,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NOTUSDT",
+        "price_usdt": 0.000355,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 35899.257451,
+        "maxLoSize": 12000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RUNVNDC",
+        "price_usdt": 0.00188889,
+        "funding_rate": 0.00543419175654,
+        "funding_interval": 8,
+        "volume_usdt": 167616.6104775,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SKYAIVNDC",
+        "price_usdt": 0.04064682,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 1151720.072643132,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "APTUSDT",
+        "price_usdt": 0.944,
+        "funding_rate": -0.006385,
+        "funding_interval": 8,
+        "volume_usdt": 51345.849,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SKLVNDC",
+        "price_usdt": 0.0058751,
+        "funding_rate": -0.025921,
+        "funding_interval": 4,
+        "volume_usdt": 149741.45335416668,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DOGEUSDT",
+        "price_usdt": 0.09431,
+        "funding_rate": 0.002797,
+        "funding_interval": 8,
+        "volume_usdt": 529125.5343,
+        "maxLoSize": 100000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CHZVNDC",
+        "price_usdt": 0.03040326,
+        "funding_rate": 0.006609,
+        "funding_interval": 8,
+        "volume_usdt": 295907.73511666665,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CHILLGUYUSDT",
+        "price_usdt": 0.01008,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 35130.12728,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HMSTRUSDT",
+        "price_usdt": 0.000173,
+        "funding_rate": 0.003896,
+        "funding_interval": 4,
+        "volume_usdt": 27491.912628,
+        "maxLoSize": 15000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MOONVNDC",
+        "price_usdt": 0.0012565,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 31859.082749808134,
+        "maxLoSize": 1500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "1000BIGFOOTVNDC",
+        "price_usdt": 0.03356692,
+        "funding_rate": -0.01017029140184,
+        "funding_interval": 4,
+        "volume_usdt": 63544.238837083336,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "IOSTVNDC",
+        "price_usdt": 0.00106327,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 198431.57596,
+        "maxLoSize": 6000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FIOVNDC",
+        "price_usdt": 0.0099778,
+        "funding_rate": -0.010504,
+        "funding_interval": 1,
+        "volume_usdt": 5165676.368193833,
+        "maxLoSize": 240000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FIDAUSDT",
+        "price_usdt": 0.0149,
+        "funding_rate": -0.020111,
+        "funding_interval": 4,
+        "volume_usdt": 204005.22767,
+        "maxLoSize": 360000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TOWNSVNDC",
+        "price_usdt": 0.0031915,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 12682.658124689719,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CKBVNDC",
+        "price_usdt": 0.00138222,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 302701.9335027917,
+        "maxLoSize": 8400000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ALICEVNDC",
+        "price_usdt": 0.11989386,
+        "funding_rate": -0.003841,
+        "funding_interval": 1,
+        "volume_usdt": 54732.47541666667,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ENSOVNDC",
+        "price_usdt": 1.31397391,
+        "funding_rate": -0.108009,
+        "funding_interval": 1,
+        "volume_usdt": 2380138.0639241706,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HBARVNDC",
+        "price_usdt": 0.08940838,
+        "funding_rate": 0.004055,
+        "funding_interval": 8,
+        "volume_usdt": 446582.27224583336,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MNAIVNDC",
+        "price_usdt": 0.00321262,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 7111.004934583333,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ACHVNDC",
+        "price_usdt": 0.00604066,
+        "funding_rate": -0.001653,
+        "funding_interval": 8,
+        "volume_usdt": 12211.0285675,
+        "maxLoSize": 1200000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ONGVNDC",
+        "price_usdt": 0.05574616,
+        "funding_rate": 0.00313,
+        "funding_interval": 4,
+        "volume_usdt": 10738.3158125,
+        "maxLoSize": 50000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HNGVNDC",
+        "price_usdt": 0.10096188,
+        "funding_rate": 0.00840412060748,
+        "funding_interval": 8,
+        "volume_usdt": 82871.61476583334,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "UNIVNDC",
+        "price_usdt": 3.43356879,
+        "funding_rate": -0.002125,
+        "funding_interval": 8,
+        "volume_usdt": 959801.3858916666,
+        "maxLoSize": 3150.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "VELVETVNDC",
+        "price_usdt": 0.08085473,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 136110.56488214128,
+        "maxLoSize": 20000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SWARMSVNDC",
+        "price_usdt": 0.00704907,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 67027.69812155861,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KOMAUSDT",
+        "price_usdt": 0.00714,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 32569.06076,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZECUSDT",
+        "price_usdt": 220.68,
+        "funding_rate": 0.003328,
+        "funding_interval": 8,
+        "volume_usdt": 2129508.874195,
+        "maxLoSize": 30.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BABYDOGE1MVNDC",
+        "price_usdt": 0.0003472,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 406467.7083661708,
+        "maxLoSize": 18000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "YFIVNDC",
+        "price_usdt": 2376.89258886,
+        "funding_rate": -0.007176,
+        "funding_interval": 8,
+        "volume_usdt": 431302.209968625,
+        "maxLoSize": 3.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "THEUSDT",
+        "price_usdt": 0.2594,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 259256.8229,
+        "maxLoSize": 20000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "JADEVNDC",
+        "price_usdt": 0.13649811,
+        "funding_rate": -0.02216633262349,
+        "funding_interval": 4,
+        "volume_usdt": 56507.54228478516,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STEEMVNDC",
+        "price_usdt": 0.05462496,
+        "funding_rate": -0.066572,
+        "funding_interval": 1,
+        "volume_usdt": 2398020.596875,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "APTEUVNDC",
+        "price_usdt": 0.00167523,
+        "funding_rate": 0.00185843755775,
+        "funding_interval": 8,
+        "volume_usdt": 117402.02932425,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DASHVNDC",
+        "price_usdt": 32.73412565,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 90131.99657908396,
+        "maxLoSize": 150.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TSTUSDT",
+        "price_usdt": 0.00997,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 28875.99666,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KAITOVNDC",
+        "price_usdt": 0.32647905,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 284772.6686344294,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PIXELVNDC",
+        "price_usdt": 0.00430183,
+        "funding_rate": -0.001515,
+        "funding_interval": 4,
+        "volume_usdt": 18197.36494379167,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COWUSDT",
+        "price_usdt": 0.2152,
+        "funding_rate": -0.026693,
+        "funding_interval": 4,
+        "volume_usdt": 32666.2548,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XLMVNDC",
+        "price_usdt": 0.14213103,
+        "funding_rate": 0.005169,
+        "funding_interval": 8,
+        "volume_usdt": 1722813.3555,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GUSDT",
+        "price_usdt": 0.003435,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 6377.265176,
+        "maxLoSize": 900000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NFPVNDC",
+        "price_usdt": 0.01285645,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 11910.448708333333,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AVAXVNDC",
+        "price_usdt": 8.19927496,
+        "funding_rate": 0.007177,
+        "funding_interval": 8,
+        "volume_usdt": 543741.7559916667,
+        "maxLoSize": 1200.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TWTVNDC",
+        "price_usdt": 0.44721008,
+        "funding_rate": -0.004442,
+        "funding_interval": 4,
+        "volume_usdt": 248561.10308333332,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MOVRVNDC",
+        "price_usdt": 1.09702134,
+        "funding_rate": 0.001642,
+        "funding_interval": 4,
+        "volume_usdt": 129881.40472083334,
+        "maxLoSize": 1000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FVNDC",
+        "price_usdt": 0.00559656,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 24473.77698108815,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GEEKSVNDC",
+        "price_usdt": 1.619e-05,
+        "funding_rate": 0.05862722086609,
+        "funding_interval": 8,
+        "volume_usdt": 4612.038834316667,
+        "maxLoSize": 150000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WAXPVNDC",
+        "price_usdt": 0.00570692,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 8090.916108333333,
+        "maxLoSize": 1200000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MYXVNDC",
+        "price_usdt": 0.39308551,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 46884.65432214976,
+        "maxLoSize": 1200.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TVNDC",
+        "price_usdt": 0.00593863,
+        "funding_rate": -0.005215,
+        "funding_interval": 4,
+        "volume_usdt": 17399.076595833332,
+        "maxLoSize": 1350000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STABLEVNDC",
+        "price_usdt": 0.03343211,
+        "funding_rate": 0.06219709027593,
+        "funding_interval": 4,
+        "volume_usdt": 169787.2030026643,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ANIMEUSDT",
+        "price_usdt": 0.004894,
+        "funding_rate": -0.018263,
+        "funding_interval": 4,
+        "volume_usdt": 11903.684847,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MEWVNDC",
+        "price_usdt": 0.00054771,
+        "funding_rate": -0.008641,
+        "funding_interval": 4,
+        "volume_usdt": 23576.05902095833,
+        "maxLoSize": 6000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COOKIEUSDT",
+        "price_usdt": 0.01743,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 103703.99392,
+        "maxLoSize": 240000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WOLFUVNDC",
+        "price_usdt": 0.00419612,
+        "funding_rate": 0.04997949326001,
+        "funding_interval": 4,
+        "volume_usdt": 28015.865431042806,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BBVNDC",
+        "price_usdt": 0.02246889,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 46707.904225,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ATAVNDC",
+        "price_usdt": 0.01009455,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 16483.35607083333,
+        "maxLoSize": 240000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TRUMPUSDT",
+        "price_usdt": 3.503,
+        "funding_rate": -0.017382,
+        "funding_interval": 4,
+        "volume_usdt": 1413148.199,
+        "maxLoSize": 2000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EGPT1000VNDC",
+        "price_usdt": 0.00516351,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 36199.07678458333,
+        "maxLoSize": 1080000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "IRYSVNDC",
+        "price_usdt": 0.01847666,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 262287.30375481053,
+        "maxLoSize": 75000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SAPIENVNDC",
+        "price_usdt": 0.08341825,
+        "funding_rate": 0.00424,
+        "funding_interval": 4,
+        "volume_usdt": 69594.84247749763,
+        "maxLoSize": 24000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ICPVNDC",
+        "price_usdt": 2.18985686,
+        "funding_rate": -0.02939,
+        "funding_interval": 8,
+        "volume_usdt": 315362.6747916667,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TANKVNDC",
+        "price_usdt": 0.00596525,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 8197.776966379552,
+        "maxLoSize": 2100000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FILM1000VNDC",
+        "price_usdt": 0.00060941,
+        "funding_rate": 0.05,
+        "funding_interval": 8,
+        "volume_usdt": 3146.402019625,
+        "maxLoSize": 12000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ICXVNDC",
+        "price_usdt": 0.03307546,
+        "funding_rate": 0.000125,
+        "funding_interval": 8,
+        "volume_usdt": 15578.624375,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AIVNDC",
+        "price_usdt": 0.01737863,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 20639.370708333332,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AIOVNDC",
+        "price_usdt": 0.06810323,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 14816.10662456872,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LUNAVNDC",
+        "price_usdt": 0.05866876,
+        "funding_rate": -0.012497,
+        "funding_interval": 4,
+        "volume_usdt": 58544.21930416667,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LPTVNDC",
+        "price_usdt": 2.09702134,
+        "funding_rate": -0.00548,
+        "funding_interval": 4,
+        "volume_usdt": 193678.296375,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ACTUSDT",
+        "price_usdt": 0.01332,
+        "funding_rate": -0.013299,
+        "funding_interval": 4,
+        "volume_usdt": 61960.13384,
+        "maxLoSize": 360000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ARVNDC",
+        "price_usdt": 1.4180962,
+        "funding_rate": -0.018883,
+        "funding_interval": 8,
+        "volume_usdt": 65887.43109166667,
+        "maxLoSize": 2400.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EGGVNDC",
+        "price_usdt": 0.00119789,
+        "funding_rate": 0.03567678964186,
+        "funding_interval": 4,
+        "volume_usdt": 37010.21515808333,
+        "maxLoSize": 3400000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AVAAIVNDC",
+        "price_usdt": 0.00660612,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 15688.51414625,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TEMUUSDT",
+        "price_usdt": 9.6e-05,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 22160.286216,
+        "maxLoSize": 16000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "UMAVNDC",
+        "price_usdt": 0.3742572,
+        "funding_rate": -0.070266,
+        "funding_interval": 4,
+        "volume_usdt": 302816.31516666664,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ADAVNDC",
+        "price_usdt": 0.25238255,
+        "funding_rate": -0.003195,
+        "funding_interval": 8,
+        "volume_usdt": 135987.40270833333,
+        "maxLoSize": 40000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NEIROUSDT",
+        "price_usdt": 6.86e-05,
+        "funding_rate": 0.003641,
+        "funding_interval": 4,
+        "volume_usdt": 41098.5487587,
+        "maxLoSize": 108000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ALTUSDT",
+        "price_usdt": 0.00722,
+        "funding_rate": -0.00364,
+        "funding_interval": 4,
+        "volume_usdt": 505800.29535,
+        "maxLoSize": 960000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "YBVNDC",
+        "price_usdt": 0.16765706,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 171864.3511772512,
+        "maxLoSize": 20000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PAXGVNDC",
+        "price_usdt": 5438.62589229,
+        "funding_rate": -0.017045,
+        "funding_interval": 4,
+        "volume_usdt": 334888.7358385509,
+        "maxLoSize": 6.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RIFVNDC",
+        "price_usdt": 0.02792167,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 93176.74527916667,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FLOKI1000VNDC",
+        "price_usdt": 0.02513286,
+        "funding_rate": -0.05916628861885,
+        "funding_interval": 8,
+        "volume_usdt": 238512.04371070833,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STRKVNDC",
+        "price_usdt": 0.03651381,
+        "funding_rate": -0.004786,
+        "funding_interval": 4,
+        "volume_usdt": 50589.33891666667,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CRABVNDC",
+        "price_usdt": 0.00270974,
+        "funding_rate": 0.02,
+        "funding_interval": 4,
+        "volume_usdt": 1781.5306131001173,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GIGGLEVNDC",
+        "price_usdt": 26.70056434,
+        "funding_rate": -0.000499,
+        "funding_interval": 4,
+        "volume_usdt": 56782.50743614769,
+        "maxLoSize": 27.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HUMAVNDC",
+        "price_usdt": 0.01202302,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 733213.4423975832,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KERNELVNDC",
+        "price_usdt": 0.07817805,
+        "funding_rate": -0.010259,
+        "funding_interval": 4,
+        "volume_usdt": 46459.01091265947,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ONDOVNDC",
+        "price_usdt": 0.23339687,
+        "funding_rate": 0.001994,
+        "funding_interval": 4,
+        "volume_usdt": 211813.94804166668,
+        "maxLoSize": 25000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SOMIVNDC",
+        "price_usdt": 0.19834174,
+        "funding_rate": -0.000624,
+        "funding_interval": 4,
+        "volume_usdt": 54634.328187677726,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LQTYVNDC",
+        "price_usdt": 0.24027357,
+        "funding_rate": -0.001709,
+        "funding_interval": 8,
+        "volume_usdt": 85732.76129166667,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "Z2VNDC",
+        "price_usdt": 0.00037136,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 47081.47187274856,
+        "maxLoSize": 30000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COAIVNDC",
+        "price_usdt": 0.32361625,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 45885.59993175355,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HYPEUSDT",
+        "price_usdt": 31.469,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 982902.18771,
+        "maxLoSize": 400.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BICOVNDC",
+        "price_usdt": 0.01873902,
+        "funding_rate": -0.012123,
+        "funding_interval": 8,
+        "volume_usdt": 9224.588575,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SUPERVNDC",
+        "price_usdt": 0.10274321,
+        "funding_rate": -0.012308,
+        "funding_interval": 4,
+        "volume_usdt": 74651.99857083333,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BAMIVNDC",
+        "price_usdt": 0.00780226,
+        "funding_rate": 0.02878776230142,
+        "funding_interval": 8,
+        "volume_usdt": 57542.66578470833,
+        "maxLoSize": 6000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EDU3VNDC",
+        "price_usdt": 0.0003003,
+        "funding_rate": 0.00058454224396,
+        "funding_interval": 8,
+        "volume_usdt": 48859.2828945,
+        "maxLoSize": 6000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CVXVNDC",
+        "price_usdt": 1.71409351,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 78636.74402047375,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PIPPINVNDC",
+        "price_usdt": 0.55822402,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 1139722.909455299,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZENVNDC",
+        "price_usdt": 4.88417984,
+        "funding_rate": 0.004403,
+        "funding_interval": 8,
+        "volume_usdt": 655525.2291666666,
+        "maxLoSize": 600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SSVVNDC",
+        "price_usdt": 2.39668124,
+        "funding_rate": 0.009245,
+        "funding_interval": 8,
+        "volume_usdt": 1561815.3876291667,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WHCVNDC",
+        "price_usdt": 0.01464488,
+        "funding_rate": 0.05,
+        "funding_interval": 8,
+        "volume_usdt": 490.44011958333334,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MOODENGVNDC",
+        "price_usdt": 0.04445323,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 144197.38249066667,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STOUSDT",
+        "price_usdt": 0.06512,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 88756.01038,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BTCDOMVNDC",
+        "price_usdt": 4527.37750869,
+        "funding_rate": 0.022655,
+        "funding_interval": 8,
+        "volume_usdt": 442163.79217095836,
+        "maxLoSize": 5.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XAUTVNDC",
+        "price_usdt": 5399.42284262,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 3242584.0492810835,
+        "maxLoSize": 20.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EGLDVNDC",
+        "price_usdt": 3.96191651,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 37744.0408125,
+        "maxLoSize": 1890.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DOTUSDT",
+        "price_usdt": 1.556,
+        "funding_rate": -0.021183,
+        "funding_interval": 8,
+        "volume_usdt": 68401.913,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BARDVNDC",
+        "price_usdt": 0.982584,
+        "funding_rate": -0.027546,
+        "funding_interval": 4,
+        "volume_usdt": 800212.0237345971,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PARTIUSDT",
+        "price_usdt": 0.0921,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 176731.4754,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PUGSVNDC",
+        "price_usdt": 5.23e-06,
+        "funding_rate": 0.03877449053433,
+        "funding_interval": 4,
+        "volume_usdt": 2041.9389607083333,
+        "maxLoSize": 960000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MASKVNDC",
+        "price_usdt": 0.3842359,
+        "funding_rate": -0.013002,
+        "funding_interval": 4,
+        "volume_usdt": 267105.167025,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LYNXVNDC",
+        "price_usdt": 0.01309575,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 42481.365115625,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MOCAVNDC",
+        "price_usdt": 0.01463169,
+        "funding_rate": -0.000482,
+        "funding_interval": 4,
+        "volume_usdt": 39345.0506125,
+        "maxLoSize": 480000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DENTVNDC",
+        "price_usdt": 0.00029379,
+        "funding_rate": -0.183303,
+        "funding_interval": 8,
+        "volume_usdt": 720244.31885775,
+        "maxLoSize": 12000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HFTVNDC",
+        "price_usdt": 0.01252009,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 22413.535125,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WVNDC",
+        "price_usdt": 0.01689278,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 30528.177916666667,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DUCKSVNDC",
+        "price_usdt": 0.00283494,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 35725.6446174534,
+        "maxLoSize": 4500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MANTAUSDT",
+        "price_usdt": 0.0615,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 61627.5996,
+        "maxLoSize": 135000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CONANMEMEVNDC",
+        "price_usdt": 0.00044144,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 28378.183233118005,
+        "maxLoSize": 18000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SKYVNDC",
+        "price_usdt": 0.06712494,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 324103.42614881514,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MORPHOUSDT",
+        "price_usdt": 1.7412,
+        "funding_rate": 0.002155,
+        "funding_interval": 4,
+        "volume_usdt": 205817.1061,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FLOCKVNDC",
+        "price_usdt": 0.05947976,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 11452.15138578199,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "REDUSDT",
+        "price_usdt": 0.1512,
+        "funding_rate": -0.07508,
+        "funding_interval": 4,
+        "volume_usdt": 45319.3161,
+        "maxLoSize": 8000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TIAUSDT",
+        "price_usdt": 0.3233,
+        "funding_rate": -0.001306,
+        "funding_interval": 4,
+        "volume_usdt": 622754.4123,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MIRAVNDC",
+        "price_usdt": 0.09391935,
+        "funding_rate": -0.336748,
+        "funding_interval": 4,
+        "volume_usdt": 308886.8580473934,
+        "maxLoSize": 18000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "0GVNDC",
+        "price_usdt": 0.626864,
+        "funding_rate": -0.030888,
+        "funding_interval": 4,
+        "volume_usdt": 42452.30005687204,
+        "maxLoSize": 3600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WLDUSDT",
+        "price_usdt": 0.3917,
+        "funding_rate": -0.008496,
+        "funding_interval": 8,
+        "volume_usdt": 123774.5468,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WETVNDC",
+        "price_usdt": 0.10382554,
+        "funding_rate": -0.037246,
+        "funding_interval": 4,
+        "volume_usdt": 4185066.028981276,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EIGENVNDC",
+        "price_usdt": 0.16459244,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 40638.295375,
+        "maxLoSize": 16000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HEMIVNDC",
+        "price_usdt": 0.00842023,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 10584.978368909953,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EDUVNDC",
+        "price_usdt": 0.09447247,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 69532.53938333334,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MOCAUSDT",
+        "price_usdt": 0.0162,
+        "funding_rate": -0.000482,
+        "funding_interval": 4,
+        "volume_usdt": 35486.9044,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ARBUSDT",
+        "price_usdt": 0.1016,
+        "funding_rate": 0.00726,
+        "funding_interval": 8,
+        "volume_usdt": 331873.0075,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ARPAVNDC",
+        "price_usdt": 0.00849871,
+        "funding_rate": -0.038224,
+        "funding_interval": 8,
+        "volume_usdt": 11977.152541666666,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ENAVNDC",
+        "price_usdt": 0.09492843,
+        "funding_rate": 0.004005,
+        "funding_interval": 4,
+        "volume_usdt": 133715.394,
+        "maxLoSize": 48000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GSNAKEVNDC",
+        "price_usdt": 0.00690873,
+        "funding_rate": -0.01649741045379,
+        "funding_interval": 4,
+        "volume_usdt": 73856.84794954167,
+        "maxLoSize": 1500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CVNDC",
+        "price_usdt": 0.04820869,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 64725.45401604803,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LABUBUVNDC",
+        "price_usdt": 2.0627012,
+        "funding_rate": 0.05,
+        "funding_interval": 8,
+        "volume_usdt": 549823.4489228333,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SOLUSDT",
+        "price_usdt": 85.911,
+        "funding_rate": 0.004642,
+        "funding_interval": 8,
+        "volume_usdt": 3355361.9382,
+        "maxLoSize": 150.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FLUXVNDC",
+        "price_usdt": 0.05466981,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 68701.99798583334,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BRETTUSDT",
+        "price_usdt": 0.00712,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 124434.42613,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "USUALVNDC",
+        "price_usdt": 0.01088911,
+        "funding_rate": 0.002342,
+        "funding_interval": 4,
+        "volume_usdt": 12047.482333291666,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZROVNDC",
+        "price_usdt": 1.62944276,
+        "funding_rate": 0.000444,
+        "funding_interval": 4,
+        "volume_usdt": 464305.97125,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SYRUPUSDT",
+        "price_usdt": 0.24085,
+        "funding_rate": 0.002018,
+        "funding_interval": 4,
+        "volume_usdt": 194598.54786,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SYRUPVNDC",
+        "price_usdt": 0.23377359,
+        "funding_rate": 0.002018,
+        "funding_interval": 4,
+        "volume_usdt": 90798.37209143913,
+        "maxLoSize": 20000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DNPAYVNDC",
+        "price_usdt": 0.0995063,
+        "funding_rate": -1.5,
+        "funding_interval": 8,
+        "volume_usdt": 117614.06994816248,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AIXBTVNDC",
+        "price_usdt": 0.01883619,
+        "funding_rate": -0.031936,
+        "funding_interval": 4,
+        "volume_usdt": 49963.056625,
+        "maxLoSize": 40000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GOLDATMVNDC",
+        "price_usdt": 1.84e-05,
+        "funding_rate": 0.04997835981285,
+        "funding_interval": 4,
+        "volume_usdt": 32992.48354526073,
+        "maxLoSize": 180000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "OPUSDT",
+        "price_usdt": 0.1241,
+        "funding_rate": 0.004591,
+        "funding_interval": 8,
+        "volume_usdt": 376768.35728,
+        "maxLoSize": 24000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "INITUSDT",
+        "price_usdt": 0.0764,
+        "funding_rate": -0.037217,
+        "funding_interval": 4,
+        "volume_usdt": 48612.2085,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PNUTUSDT",
+        "price_usdt": 0.04477,
+        "funding_rate": 0.001737,
+        "funding_interval": 4,
+        "volume_usdt": 264056.70267,
+        "maxLoSize": 144000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TURBOVNDC",
+        "price_usdt": 0.00087652,
+        "funding_rate": 0.004226,
+        "funding_interval": 4,
+        "volume_usdt": 394386.18723475,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ONX1000USDT",
+        "price_usdt": 0.001285,
+        "funding_rate": -0.06448556121749,
+        "funding_interval": 8,
+        "volume_usdt": 20433.127653,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "APTVNDC",
+        "price_usdt": 0.84583473,
+        "funding_rate": -0.006385,
+        "funding_interval": 8,
+        "volume_usdt": 535529.2289041667,
+        "maxLoSize": 7200.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SANDVNDC",
+        "price_usdt": 0.07516538,
+        "funding_rate": -0.004477,
+        "funding_interval": 8,
+        "volume_usdt": 90740.788475,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GMTVNDC",
+        "price_usdt": 0.01072542,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 6853.888153458333,
+        "maxLoSize": 720000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NXPCUSDT",
+        "price_usdt": 0.27278,
+        "funding_rate": -0.018989,
+        "funding_interval": 4,
+        "volume_usdt": 179918.16173,
+        "maxLoSize": 18000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ROSEVNDC",
+        "price_usdt": 0.01023657,
+        "funding_rate": -0.034375,
+        "funding_interval": 8,
+        "volume_usdt": 145207.287775,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LABUBUUSDT",
+        "price_usdt": 2.296505,
+        "funding_rate": 0.05,
+        "funding_interval": 8,
+        "volume_usdt": 189261.952348,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TAOVNDC",
+        "price_usdt": 163.24935531,
+        "funding_rate": -0.001988,
+        "funding_interval": 4,
+        "volume_usdt": 874819.4716584167,
+        "maxLoSize": 60.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NEWTVNDC",
+        "price_usdt": 0.0702803,
+        "funding_rate": -0.133184,
+        "funding_interval": 4,
+        "volume_usdt": 243630.724168639,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SIRIUSVNDC",
+        "price_usdt": 0.00155807,
+        "funding_rate": 0.049888026557,
+        "funding_interval": 4,
+        "volume_usdt": 41527.73609747113,
+        "maxLoSize": 7500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FOGOVNDC",
+        "price_usdt": 0.02612438,
+        "funding_rate": -8.2e-05,
+        "funding_interval": 4,
+        "volume_usdt": 63180.06614231794,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "1INCHVNDC",
+        "price_usdt": 0.08382853,
+        "funding_rate": -0.00316,
+        "funding_interval": 8,
+        "volume_usdt": 219638.13354166667,
+        "maxLoSize": 144000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "USUALUSDT",
+        "price_usdt": 0.0122,
+        "funding_rate": 0.002342,
+        "funding_interval": 4,
+        "volume_usdt": 3758.132,
+        "maxLoSize": 210000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SEIVNDC",
+        "price_usdt": 0.06180065,
+        "funding_rate": -0.021218,
+        "funding_interval": 8,
+        "volume_usdt": 61969.801620833336,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LDOVNDC",
+        "price_usdt": 0.27413387,
+        "funding_rate": 0.000853,
+        "funding_interval": 8,
+        "volume_usdt": 469836.9980416667,
+        "maxLoSize": 27000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ONUSUSDT",
+        "price_usdt": 0.365,
+        "funding_rate": 0.03026671550578,
+        "funding_interval": 4,
+        "volume_usdt": 76615.1359,
+        "maxLoSize": 36000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ESPORTSVNDC",
+        "price_usdt": 0.29796502,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 465982.65384834126,
+        "maxLoSize": 8000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SXTUSDT",
+        "price_usdt": 0.01944,
+        "funding_rate": -0.026127,
+        "funding_interval": 4,
+        "volume_usdt": 448908.75236,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SAHARAVNDC",
+        "price_usdt": 0.0229581,
+        "funding_rate": -0.152943,
+        "funding_interval": 1,
+        "volume_usdt": 3326045.2960522617,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KITEVNDC",
+        "price_usdt": 0.27006017,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 128797.51229730409,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GBCUSDT",
+        "price_usdt": 0.0003312,
+        "funding_rate": 0.04857929900709,
+        "funding_interval": 8,
+        "volume_usdt": 52457.656587,
+        "maxLoSize": 18000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SAFEVNDC",
+        "price_usdt": 0.09314946,
+        "funding_rate": -0.014408,
+        "funding_interval": 4,
+        "volume_usdt": 30625.876533333332,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KERNELUSDT",
+        "price_usdt": 0.0805,
+        "funding_rate": -0.010259,
+        "funding_interval": 4,
+        "volume_usdt": 100060.9745,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TNSRVNDC",
+        "price_usdt": 0.040737,
+        "funding_rate": -0.00136,
+        "funding_interval": 4,
+        "volume_usdt": 238246.45441666667,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XMRVNDC",
+        "price_usdt": 353.79212916,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 652576.5758890245,
+        "maxLoSize": 30.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ALLOVNDC",
+        "price_usdt": 0.11183989,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 19156.940711959738,
+        "maxLoSize": 50000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LINEAVNDC",
+        "price_usdt": 0.00307919,
+        "funding_rate": 0.003873,
+        "funding_interval": 4,
+        "volume_usdt": 15413.484474691943,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ATOMVNDC",
+        "price_usdt": 1.63426393,
+        "funding_rate": -0.123017,
+        "funding_interval": 8,
+        "volume_usdt": 95794.99732541667,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COREVNDC",
+        "price_usdt": 0.07276601,
+        "funding_rate": -0.04248780424282,
+        "funding_interval": 8,
+        "volume_usdt": 61002.96345833333,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NXPCVNDC",
+        "price_usdt": 0.26489816,
+        "funding_rate": -0.018989,
+        "funding_interval": 4,
+        "volume_usdt": 311931.4582851315,
+        "maxLoSize": 18000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "IDVNDC",
+        "price_usdt": 0.03875621,
+        "funding_rate": -0.001415,
+        "funding_interval": 8,
+        "volume_usdt": 18807.380416666667,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BERAVNDC",
+        "price_usdt": 0.54505363,
+        "funding_rate": -0.004743,
+        "funding_interval": 4,
+        "volume_usdt": 68606.454,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NOTVNDC",
+        "price_usdt": 0.00031775,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 7280.8134810833335,
+        "maxLoSize": 9000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GRASSUSDT",
+        "price_usdt": 0.2675,
+        "funding_rate": -0.024795,
+        "funding_interval": 4,
+        "volume_usdt": 312319.4733,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "REZVNDC",
+        "price_usdt": 0.00247524,
+        "funding_rate": -0.01278,
+        "funding_interval": 4,
+        "volume_usdt": 6728.3557225,
+        "maxLoSize": 650000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AXLVNDC",
+        "price_usdt": 0.04839855,
+        "funding_rate": -0.080532,
+        "funding_interval": 4,
+        "volume_usdt": 20335.559708333334,
+        "maxLoSize": 108000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KSMVNDC",
+        "price_usdt": 4.37179056,
+        "funding_rate": 0.005159,
+        "funding_interval": 8,
+        "volume_usdt": 596978.1055583333,
+        "maxLoSize": 1200.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BELVNDC",
+        "price_usdt": 0.08360429,
+        "funding_rate": -0.008036,
+        "funding_interval": 8,
+        "volume_usdt": 52184.963833333335,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MCAKEVNDC",
+        "price_usdt": 0.00968943,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 5644.202460416666,
+        "maxLoSize": 900000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DOGTVNDC",
+        "price_usdt": 0.01735071,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 18811.290057,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SOLVNDC",
+        "price_usdt": 77.05150054,
+        "funding_rate": -0.00467843450184,
+        "funding_interval": 8,
+        "volume_usdt": 38006996.44828334,
+        "maxLoSize": 2000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SIGNVNDC",
+        "price_usdt": 0.0269081,
+        "funding_rate": 0.00473632198969,
+        "funding_interval": 4,
+        "volume_usdt": 1338967.5010506264,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COOKIEVNDC",
+        "price_usdt": 0.01562208,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 30579.882708333334,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RATS1000VNDC",
+        "price_usdt": 0.03069477,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 476976.2340583333,
+        "maxLoSize": 75000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FIDAVNDC",
+        "price_usdt": 0.01332885,
+        "funding_rate": -0.020111,
+        "funding_interval": 4,
+        "volume_usdt": 45364.9049125,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DOGEVNDC",
+        "price_usdt": 0.08457226,
+        "funding_rate": 0.00254493096036,
+        "funding_interval": 8,
+        "volume_usdt": 1060255.7331591668,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "1000CATVNDC",
+        "price_usdt": 0.00152756,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 52459.286224916665,
+        "maxLoSize": 1800000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SHAT1000VNDC",
+        "price_usdt": 0.00016897,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 2511.252362208333,
+        "maxLoSize": 5000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ACTVNDC",
+        "price_usdt": 0.01192514,
+        "funding_rate": -0.013299,
+        "funding_interval": 4,
+        "volume_usdt": 16565.544024166666,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AVAXUSDT",
+        "price_usdt": 9.146,
+        "funding_rate": 0.007177,
+        "funding_interval": 8,
+        "volume_usdt": 77577.8334,
+        "maxLoSize": 1500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "JASMYVNDC",
+        "price_usdt": 0.004922,
+        "funding_rate": -0.020407,
+        "funding_interval": 8,
+        "volume_usdt": 117319.50760066666,
+        "maxLoSize": 1500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AUCTIONVNDC",
+        "price_usdt": 4.31460926,
+        "funding_rate": 0.002828,
+        "funding_interval": 4,
+        "volume_usdt": 72690.02434166666,
+        "maxLoSize": 600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GLMUSDT",
+        "price_usdt": 0.1341,
+        "funding_rate": -0.028734,
+        "funding_interval": 4,
+        "volume_usdt": 724500.98104,
+        "maxLoSize": 75000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "JELLYJELLYVNDC",
+        "price_usdt": 0.06734948,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 285550.9399719063,
+        "maxLoSize": 100000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZENUSDT",
+        "price_usdt": 5.44,
+        "funding_rate": 0.004403,
+        "funding_interval": 8,
+        "volume_usdt": 408682.707,
+        "maxLoSize": 750.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BANKUSDT",
+        "price_usdt": 0.03503,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 21111.11488,
+        "maxLoSize": 100000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ARCVNDC",
+        "price_usdt": 0.0334903,
+        "funding_rate": -0.00655,
+        "funding_interval": 4,
+        "volume_usdt": 6239027.10350125,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TRXUSDT",
+        "price_usdt": 0.2819,
+        "funding_rate": -0.020183,
+        "funding_interval": 8,
+        "volume_usdt": 39032.5074,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "VIRTUALUSDT",
+        "price_usdt": 0.706,
+        "funding_rate": -0.028039,
+        "funding_interval": 4,
+        "volume_usdt": 1701756.1104,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "USTCVNDC",
+        "price_usdt": 0.00451471,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 11050.285395833333,
+        "maxLoSize": 1500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SHELLUSDT",
+        "price_usdt": 0.0292,
+        "funding_rate": -0.002886,
+        "funding_interval": 4,
+        "volume_usdt": 26154.1933,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PICKLEVNDC",
+        "price_usdt": 0.00435751,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 74180.4411960631,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AAVEVNDC",
+        "price_usdt": 104.160444,
+        "funding_rate": 0.002076,
+        "funding_interval": 8,
+        "volume_usdt": 495549.6228770833,
+        "maxLoSize": 60.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PROVEVNDC",
+        "price_usdt": 0.28893374,
+        "funding_rate": -0.001461,
+        "funding_interval": 4,
+        "volume_usdt": 308078.9733194313,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PARTIVNDC",
+        "price_usdt": 0.08899727,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 212994.3154226558,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PUMPVNDC",
+        "price_usdt": 0.00190593,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 721739.9475107084,
+        "maxLoSize": 3000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STORJVNDC",
+        "price_usdt": 0.08577195,
+        "funding_rate": -0.002013,
+        "funding_interval": 4,
+        "volume_usdt": 10862.561666666666,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "UBVNDC",
+        "price_usdt": 0.03303476,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 358154.94293436967,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FARTCOINUSDT",
+        "price_usdt": 0.1595,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 92226.6695,
+        "maxLoSize": 18000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AVNTVNDC",
+        "price_usdt": 0.17223855,
+        "funding_rate": -0.007663,
+        "funding_interval": 4,
+        "volume_usdt": 198992.7662433744,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ANIMEVNDC",
+        "price_usdt": 0.00438887,
+        "funding_rate": -0.018263,
+        "funding_interval": 4,
+        "volume_usdt": 6636.517699833334,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GBCVNDC",
+        "price_usdt": 0.00029727,
+        "funding_rate": 0.05,
+        "funding_interval": 8,
+        "volume_usdt": 10098.697671541666,
+        "maxLoSize": 22500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FORMVNDC",
+        "price_usdt": 0.21516687,
+        "funding_rate": 0.002861,
+        "funding_interval": 4,
+        "volume_usdt": 801841.3314883066,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CGPTUSDT",
+        "price_usdt": 0.02106,
+        "funding_rate": 0.001072,
+        "funding_interval": 4,
+        "volume_usdt": 156559.23107,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SCRUSDT",
+        "price_usdt": 0.0491,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 44082.6211,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BRETTVNDC",
+        "price_usdt": 0.00638581,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 189422.57688004166,
+        "maxLoSize": 648000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PHBVNDC",
+        "price_usdt": 0.1241918,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 78948.30925,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ACEVNDC",
+        "price_usdt": 0.13170385,
+        "funding_rate": -0.107918,
+        "funding_interval": 4,
+        "volume_usdt": 129900.12545833334,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ARBVNDC",
+        "price_usdt": 0.09096685,
+        "funding_rate": 0.00726,
+        "funding_interval": 8,
+        "volume_usdt": 476286.7565416667,
+        "maxLoSize": 64800.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FRAXVNDC",
+        "price_usdt": 0.58594013,
+        "funding_rate": -0.080504,
+        "funding_interval": 4,
+        "volume_usdt": 101113.92832297218,
+        "maxLoSize": 24000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZBTVNDC",
+        "price_usdt": 0.07420488,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 104325.45533763034,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MMTVNDC",
+        "price_usdt": 0.11956871,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 12344.481392203688,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ASTERVNDC",
+        "price_usdt": 0.71151474,
+        "funding_rate": 0.00221,
+        "funding_interval": 4,
+        "volume_usdt": 83948.98365876777,
+        "maxLoSize": 10000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GOATUSDT",
+        "price_usdt": 0.0178,
+        "funding_rate": -0.087546,
+        "funding_interval": 4,
+        "volume_usdt": 42176.3434,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "THEVNDC",
+        "price_usdt": 0.23249991,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 123821.24129166667,
+        "maxLoSize": 20000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "POPCATVNDC",
+        "price_usdt": 0.04249729,
+        "funding_rate": -0.007039,
+        "funding_interval": 4,
+        "volume_usdt": 275725.7489708333,
+        "maxLoSize": 72000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GASVNDC",
+        "price_usdt": 1.43693239,
+        "funding_rate": -0.007861,
+        "funding_interval": 4,
+        "volume_usdt": 55476.78470833333,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "QVNDC",
+        "price_usdt": 0.02523478,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 156764.88671935545,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SONICVNDC",
+        "price_usdt": 0.03998954,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 28462.40975,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WALVNDC",
+        "price_usdt": 0.07684311,
+        "funding_rate": -0.008981,
+        "funding_interval": 4,
+        "volume_usdt": 58665.616924246446,
+        "maxLoSize": 75000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "OPENVNDC",
+        "price_usdt": 0.14336435,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 43398.97683412322,
+        "maxLoSize": 24000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NATRAVNDC",
+        "price_usdt": 0.00819874,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 39103.50875877026,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "COLLECTVNDC",
+        "price_usdt": 0.04643757,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 171260.97490119893,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "JOEVNDC",
+        "price_usdt": 0.03356131,
+        "funding_rate": -0.001303,
+        "funding_interval": 8,
+        "volume_usdt": 56727.40633333333,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "OMTVNDC",
+        "price_usdt": 0.41875509,
+        "funding_rate": -0.03919675759636,
+        "funding_interval": 8,
+        "volume_usdt": 42791.10184375,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TRUMPVNDC",
+        "price_usdt": 3.13917853,
+        "funding_rate": -0.017382,
+        "funding_interval": 4,
+        "volume_usdt": 881525.3091666667,
+        "maxLoSize": 1500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FETVNDC",
+        "price_usdt": 0.1572979,
+        "funding_rate": -0.018005,
+        "funding_interval": 8,
+        "volume_usdt": 289285.662562537,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SHELLVNDC",
+        "price_usdt": 0.02811601,
+        "funding_rate": -0.002886,
+        "funding_interval": 4,
+        "volume_usdt": 36403.4357524178,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XAGXUSDT",
+        "price_usdt": 94.9,
+        "funding_rate": 0.409343,
+        "funding_interval": 4,
+        "volume_usdt": 1354419.1642,
+        "maxLoSize": 300.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "API3VNDC",
+        "price_usdt": 0.25391486,
+        "funding_rate": -0.015697,
+        "funding_interval": 4,
+        "volume_usdt": 56533.862166666666,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RAREVNDC",
+        "price_usdt": 0.01463542,
+        "funding_rate": -0.06599618051523,
+        "funding_interval": 4,
+        "volume_usdt": 670110.3274583333,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WLFIUSDT",
+        "price_usdt": 0.1107,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 806703.1504,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BTCUSDT",
+        "price_usdt": 66985.5,
+        "funding_rate": 0.002481,
+        "funding_interval": 8,
+        "volume_usdt": 4047100.10475,
+        "maxLoSize": 2.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GALAVNDC",
+        "price_usdt": 0.0032328,
+        "funding_rate": -0.024109,
+        "funding_interval": 8,
+        "volume_usdt": 27571.3304375,
+        "maxLoSize": 2250000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CDOGEVNDC",
+        "price_usdt": 0.00011142,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 1240.3731971125,
+        "maxLoSize": 30000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CATIVNDC",
+        "price_usdt": 0.03526554,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 48821.54882916667,
+        "maxLoSize": 50000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XAUCVNDC",
+        "price_usdt": 0.0123814,
+        "funding_rate": -0.01842892253793,
+        "funding_interval": 4,
+        "volume_usdt": 59335.43158233947,
+        "maxLoSize": 600000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DOTVNDC",
+        "price_usdt": 1.39686811,
+        "funding_rate": -0.021183,
+        "funding_interval": 8,
+        "volume_usdt": 334412.4807,
+        "maxLoSize": 9000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DASHUSDT",
+        "price_usdt": 32.71,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 102205.41871,
+        "maxLoSize": 150.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XAUDVNDC",
+        "price_usdt": 0.00033484,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 61121.69271780908,
+        "maxLoSize": 20000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MVNDC",
+        "price_usdt": 1.4511526,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 156286.4679139487,
+        "maxLoSize": 3000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XVSVNDC",
+        "price_usdt": 2.67832717,
+        "funding_rate": 0.009441,
+        "funding_interval": 8,
+        "volume_usdt": 177266.286125,
+        "maxLoSize": 1000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BOMEUSDT",
+        "price_usdt": 0.000391,
+        "funding_rate": -0.002175,
+        "funding_interval": 4,
+        "volume_usdt": 21092.605332,
+        "maxLoSize": 6000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "STGVNDC",
+        "price_usdt": 0.14345405,
+        "funding_rate": -0.00666728896554,
+        "funding_interval": 8,
+        "volume_usdt": 1088815.284375,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WCTUSDT",
+        "price_usdt": 0.0589,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 13672.94,
+        "maxLoSize": 75000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PIEVERSEVNDC",
+        "price_usdt": 0.52931943,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 121241.57611752517,
+        "maxLoSize": 6000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "VFIVNDC",
+        "price_usdt": 0.22072729,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 77225.80791666667,
+        "maxLoSize": 20000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BIGTIMEUSDT",
+        "price_usdt": 0.01405,
+        "funding_rate": -0.022118,
+        "funding_interval": 4,
+        "volume_usdt": 6836.57723,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BVNDC",
+        "price_usdt": 0.19164705,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 273066.19131142687,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RICEVNDC",
+        "price_usdt": 0.00094385,
+        "funding_rate": 0.03833401370544,
+        "funding_interval": 8,
+        "volume_usdt": 19833.3630438,
+        "maxLoSize": 6000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SHIB1000VNDC",
+        "price_usdt": 0.00506895,
+        "funding_rate": -0.033513367208,
+        "funding_interval": 8,
+        "volume_usdt": 847331.8866645833,
+        "maxLoSize": 1050000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "OKBUSDT",
+        "price_usdt": 76.78,
+        "funding_rate": -0.00605706623172,
+        "funding_interval": 4,
+        "volume_usdt": 81811.7585,
+        "maxLoSize": 120.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BANKVNDC",
+        "price_usdt": 0.0353713,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 52884.75098134991,
+        "maxLoSize": 100000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ETHUSDT",
+        "price_usdt": 2004.44,
+        "funding_rate": 0.005023,
+        "funding_interval": 8,
+        "volume_usdt": 809028.77273,
+        "maxLoSize": 9.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "YGGVNDC",
+        "price_usdt": 0.03483201,
+        "funding_rate": -0.022421,
+        "funding_interval": 4,
+        "volume_usdt": 25151.405166666667,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "IOVNDC",
+        "price_usdt": 0.09709609,
+        "funding_rate": -0.027534,
+        "funding_interval": 4,
+        "volume_usdt": 52026.33,
+        "maxLoSize": 48000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KITEUSDT",
+        "price_usdt": 0.2698,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 121666.7203,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SUSHIVNDC",
+        "price_usdt": 0.18212057,
+        "funding_rate": -0.002472,
+        "funding_interval": 8,
+        "volume_usdt": 2107519.686333333,
+        "maxLoSize": 48000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RIVERVNDC",
+        "price_usdt": 13.39582165,
+        "funding_rate": -0.000885,
+        "funding_interval": 4,
+        "volume_usdt": 899342.5134510065,
+        "maxLoSize": 50.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "XNYVNDC",
+        "price_usdt": 0.00539308,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 478741.6416240645,
+        "maxLoSize": 1200000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BSVVNDC",
+        "price_usdt": 13.84015398,
+        "funding_rate": -0.000315,
+        "funding_interval": 4,
+        "volume_usdt": 100068.97115416666,
+        "maxLoSize": 600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HYPERUSDT",
+        "price_usdt": 0.0922,
+        "funding_rate": -0.015692,
+        "funding_interval": 4,
+        "volume_usdt": 86858.1632,
+        "maxLoSize": 24000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GUNVNDC",
+        "price_usdt": 0.02607146,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 34023.09210901421,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KASVNDC",
+        "price_usdt": 0.02692753,
+        "funding_rate": -0.008114,
+        "funding_interval": 4,
+        "volume_usdt": 105527.83015416667,
+        "maxLoSize": 300000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PEPE1000USDT",
+        "price_usdt": 0.0035229,
+        "funding_rate": -0.0950926533191,
+        "funding_interval": 8,
+        "volume_usdt": 2723809.5807037,
+        "maxLoSize": 4500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "CDOGEUSDT",
+        "price_usdt": 0.0001242,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 28707.9769132,
+        "maxLoSize": 18000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZILVNDC",
+        "price_usdt": 0.00377471,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 7537.261675,
+        "maxLoSize": 1500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "POLVNDC",
+        "price_usdt": 0.09582315,
+        "funding_rate": -0.002678,
+        "funding_interval": 4,
+        "volume_usdt": 82859.98549916667,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "EULVNDC",
+        "price_usdt": 1.13574018,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 28890.84818957346,
+        "maxLoSize": 1500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ONEVNDC",
+        "price_usdt": 0.00204507,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 2463.79493875,
+        "maxLoSize": 2400000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ORDIVNDC",
+        "price_usdt": 2.18499832,
+        "funding_rate": 0.002105,
+        "funding_interval": 4,
+        "volume_usdt": 333279.7304958333,
+        "maxLoSize": 1000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GPT5VNDC",
+        "price_usdt": 0.00032861,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 54207.15069054373,
+        "maxLoSize": 30000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ALTVNDC",
+        "price_usdt": 0.00646186,
+        "funding_rate": -0.00364,
+        "funding_interval": 4,
+        "volume_usdt": 182793.4204875,
+        "maxLoSize": 450000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "IMXVNDC",
+        "price_usdt": 0.14665321,
+        "funding_rate": -0.008734,
+        "funding_interval": 4,
+        "volume_usdt": 349073.8855833333,
+        "maxLoSize": 24000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BTCDOMUSDT",
+        "price_usdt": 5047.6,
+        "funding_rate": 0.022655,
+        "funding_interval": 8,
+        "volume_usdt": 172693.0738,
+        "maxLoSize": 15.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BASAVNDC",
+        "price_usdt": 0.0002272,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 13898.681974979982,
+        "maxLoSize": 9000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BCHUSDT",
+        "price_usdt": 448.86,
+        "funding_rate": -0.031497,
+        "funding_interval": 8,
+        "volume_usdt": 145282.39838,
+        "maxLoSize": 30.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WLDVNDC",
+        "price_usdt": 0.35112307,
+        "funding_rate": -0.008496,
+        "funding_interval": 8,
+        "volume_usdt": 941773.73425,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HYPERVNDC",
+        "price_usdt": 0.09087416,
+        "funding_rate": -0.015692,
+        "funding_interval": 4,
+        "volume_usdt": 28373.327446824645,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MAGICVNDC",
+        "price_usdt": 0.05437829,
+        "funding_rate": -0.005977,
+        "funding_interval": 4,
+        "volume_usdt": 32068.206666666665,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "DRIFTUSDT",
+        "price_usdt": 0.0845,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 28994.1594,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SUIVNDC",
+        "price_usdt": 0.82176627,
+        "funding_rate": 0.003764,
+        "funding_interval": 8,
+        "volume_usdt": 2753724.408541667,
+        "maxLoSize": 9600.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MEMEUSDT",
+        "price_usdt": 0.000595,
+        "funding_rate": -0.000466,
+        "funding_interval": 4,
+        "volume_usdt": 28944.630803,
+        "maxLoSize": 15000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "REDVNDC",
+        "price_usdt": 0.14596554,
+        "funding_rate": -0.07508,
+        "funding_interval": 4,
+        "volume_usdt": 64580.66935009671,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KNCVNDC",
+        "price_usdt": 0.12202414,
+        "funding_rate": -0.01887,
+        "funding_interval": 8,
+        "volume_usdt": 107114.78204166667,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "UAVVNDC",
+        "price_usdt": 0.00082204,
+        "funding_rate": 0.01311274348952,
+        "funding_interval": 4,
+        "volume_usdt": 27462.932130345784,
+        "maxLoSize": 9000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "FHEVNDC",
+        "price_usdt": 0.02912621,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 34370.95452819716,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TRENDYVNDC",
+        "price_usdt": 7.064e-05,
+        "funding_rate": 0.03564475747223,
+        "funding_interval": 8,
+        "volume_usdt": 14575.940950791666,
+        "maxLoSize": 150000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "POLUSDT",
+        "price_usdt": 0.1067,
+        "funding_rate": -0.002678,
+        "funding_interval": 4,
+        "volume_usdt": 72357.321,
+        "maxLoSize": 72000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ONUSVNDC",
+        "price_usdt": 0.32728632,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 931392.1644791666,
+        "maxLoSize": 200000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GORILLAVNDC",
+        "price_usdt": 0.00297427,
+        "funding_rate": 0.05,
+        "funding_interval": 4,
+        "volume_usdt": 46189.261230040844,
+        "maxLoSize": 4500000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GEEKSUSDT",
+        "price_usdt": 1.79e-05,
+        "funding_rate": -0.00123807081203,
+        "funding_interval": 4,
+        "volume_usdt": 4717.0264981,
+        "maxLoSize": 612000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "TREEVNDC",
+        "price_usdt": 0.06923646,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 127078.09781535545,
+        "maxLoSize": 90000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SAGAVNDC",
+        "price_usdt": 0.02660986,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 46686.847083333334,
+        "maxLoSize": 96000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ZECVNDC",
+        "price_usdt": 220.91650783,
+        "funding_rate": 0.003328,
+        "funding_interval": 8,
+        "volume_usdt": 646399.2706701774,
+        "maxLoSize": 30.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "AIUSDT",
+        "price_usdt": 0.0196,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 43347.8833,
+        "maxLoSize": 180000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "RAYUSDT",
+        "price_usdt": 0.5988,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 60752.7269,
+        "maxLoSize": 4500.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MEON1000USDT",
+        "price_usdt": 0.000142,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 43207.8182849,
+        "maxLoSize": 45000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "PYTHVNDC",
+        "price_usdt": 0.0444295,
+        "funding_rate": -0.002903,
+        "funding_interval": 4,
+        "volume_usdt": 33553.16464166667,
+        "maxLoSize": 120000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "JUPVNDC",
+        "price_usdt": 0.15056247,
+        "funding_rate": -0.007345,
+        "funding_interval": 4,
+        "volume_usdt": 711260.9541375,
+        "maxLoSize": 36000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "HYPEVNDC",
+        "price_usdt": 31.08177299,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 2349143.0447931755,
+        "maxLoSize": 1200.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BNTVNDC",
+        "price_usdt": 0.25873603,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 156685.93579166668,
+        "maxLoSize": 12000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "LTCUSDT",
+        "price_usdt": 54.35,
+        "funding_rate": -0.001367,
+        "funding_interval": 8,
+        "volume_usdt": 79797.179,
+        "maxLoSize": 300.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "MEUSDT",
+        "price_usdt": 0.118,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 3516.267,
+        "maxLoSize": 5000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "1000BIGFOOTUSDT",
+        "price_usdt": 0.03744,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 56463.82499,
+        "maxLoSize": 150000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WOOVNDC",
+        "price_usdt": 0.01453825,
+        "funding_rate": -0.000566,
+        "funding_interval": 8,
+        "volume_usdt": 7798.089,
+        "maxLoSize": 225000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "NILUSDT",
+        "price_usdt": 0.047,
+        "funding_rate": 0.005,
+        "funding_interval": 4,
+        "volume_usdt": 38500.5657,
+        "maxLoSize": 60000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "SATS1000VNDC",
+        "price_usdt": 1.02e-05,
+        "funding_rate": 0.01,
+        "funding_interval": 4,
+        "volume_usdt": 4770.8337285416665,
+        "maxLoSize": 180000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "WIFVNDC",
+        "price_usdt": 0.17758717,
+        "funding_rate": -0.018811,
+        "funding_interval": 4,
+        "volume_usdt": 1008607.8817625,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "GGCVNDC",
+        "price_usdt": 5.43e-06,
+        "funding_rate": 0.00579348778486,
+        "funding_interval": 4,
+        "volume_usdt": 14627.179913376205,
+        "maxLoSize": 1500000000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "ERAVNDC",
+        "price_usdt": 0.14209366,
+        "funding_rate": -0.005021,
+        "funding_interval": 4,
+        "volume_usdt": 36917.14060305182,
+        "maxLoSize": 30000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "BANDVNDC",
+        "price_usdt": 0.18585791,
+        "funding_rate": 0.01,
+        "funding_interval": 8,
+        "volume_usdt": 149024.74575,
+        "maxLoSize": 15000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    },
+    {
+        "symbol": "KAVAVNDC",
+        "price_usdt": 0.04507232,
+        "funding_rate": -0.004598,
+        "funding_interval": 4,
+        "volume_usdt": 17167.77525,
+        "maxLoSize": 45000.0,
+        "timestamp": "2026-03-01T16:29:18.742486+00:00"
+    }
+]
