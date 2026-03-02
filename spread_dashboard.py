@@ -299,7 +299,7 @@ HTML_PAGE = """<!doctype html>
     h1 { margin: 0 0 12px; font-size: 24px; }
     .sub { color: var(--muted); margin-bottom: 16px; font-size: 14px; }
     .toolbar {
-      display: grid; grid-template-columns: repeat(5, minmax(120px, 1fr)); gap: 10px;
+      display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)); gap: 10px;
       background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px;
       margin-bottom: 16px;
     }
@@ -331,8 +331,8 @@ HTML_PAGE = """<!doctype html>
   <div class="sub">ONUS vs все остальные биржи (v2). Сравнение цен между биржами с подсказкой направления LONG/SHORT и фондированием.</div>
 
   <div class="toolbar">
-    <label>Базовая биржа
-      <input id="baseExchange" type="text" value="ONUS" disabled>
+    <label>Режим
+      <input id="fixedMode" type="text" value="ONUS vs все биржи" disabled>
     </label>
     <label>Мин. |спред| %
       <input id="minSpread" type="number" step="0.01" value="0.2">
@@ -393,7 +393,11 @@ async function loadMeta() {
   if (compareExchanges.length < 1) {
     const meta = document.getElementById('meta');
     meta.textContent = 'Нужна хотя бы 1 дополнительная биржа кроме ONUS.';
+    return;
   }
+
+  const fixed = document.getElementById('fixedMode');
+  fixed.value = `ONUS vs ${compareExchanges.map(x => x.toUpperCase()).join(', ')}`;
 }
 
 async function loadTable() {
