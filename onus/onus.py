@@ -1,4 +1,4 @@
-#V3
+# V4
 
 import requests
 import time
@@ -9,7 +9,6 @@ from datetime import datetime, timezone
 TICKER_URL = "https://api-pro.goonus.io/market/v2/ticker/24hr"
 FUNDING_URL = "https://api-pro.goonus.io/market/v2/market?sf=1"
 EXCHANGE_INFO_URL = "https://api-pro.goonus.io/market/v2/exchangeInfo"
-SPOT_RATE_URL = "https://spot-markets.goonus.io/ticker-stats?names=USDT_VNDC"
 
 RATE_FILE = "vdncusdt.json"
 DB_FILE = "onus_futures_db.json"
@@ -20,28 +19,50 @@ LIMITS_INTERVAL = 10
 # ============================================
 
 
-# ===== КУРС VNDC =====
 def update_vndc_rate():
+    """Save per-futures-symbol USD conversion rates from exchangeInfo.
+
+    Example:
+    - BTCUSDT -> rate=1
+    - AXSVNDC -> rate=24000
+    """
     try:
-        r = requests.get(SPOT_RATE_URL, timeout=5)
-        data = r.json()[0]
-        best_bid = float(data["b"])
+        r = requests.get(EXCHANGE_INFO_URL, timeout=10)
+        data = r.json()
+
+        rates = {}
+        for item in data:
+            symbol = item.get("symbol")
+            raw_rate = item.get("rate")
+            if not symbol:
+                continue
+
+            try:
+                rates[symbol] = float(raw_rate)
+            except (TypeError, ValueError):
+                # Fallback: for USDT pairs conversion rate is 1
+                rates[symbol] = 1.0 if symbol.endswith("USDT") else None
 
         with open(RATE_FILE, "w") as f:
-            json.dump({"vdnc": best_bid}, f)
+            json.dump({"updated_at": datetime.now(timezone.utc).isoformat(), "rates": rates}, f, indent=2)
 
-        print(f"[RATE UPDATED] 1 USDT = {best_bid} VNDC")
+        print(f"[RATE UPDATED] {len(rates)} symbol rates")
 
     except Exception as e:
         print("[RATE ERROR]", e)
 
 
 def load_vndc_rate():
+    """Load per-symbol conversion rates from local file."""
     try:
         with open(RATE_FILE, "r") as f:
-            return float(json.load(f)["vdnc"])
-    except:
-        return 1
+            payload = json.load(f)
+            rates = payload.get("rates", {})
+            if isinstance(rates, dict):
+                return rates
+    except Exception:
+        pass
+    return {}
 
 
 # ===== ЛИМИТЫ maxLoSize =====
@@ -72,11 +93,16 @@ def get_funding():
     return requests.get(FUNDING_URL, timeout=10).json()
 
 
-def convert_price(symbol, price, vndc_rate):
+def convert_price(symbol, price, symbol_rates):
     price = float(price)
-    if symbol.endswith("VNDC"):
-        return price / vndc_rate
-    return price
+    if not symbol.endswith("VNDC"):
+        return price
+
+    rate = symbol_rates.get(symbol)
+    if rate in (None, 0):
+        # fallback if rate is temporarily missing
+        return price
+    return price / float(rate)
 
 
 def save_db(data):
@@ -96,7 +122,7 @@ if __name__ == "__main__":
         try:
             now = time.time()
 
-            # ===== курс VNDC (10 сек) =====
+            # ===== курсы из exchangeInfo (10 сек) =====
             if now - last_rate_time >= RATE_INTERVAL:
                 update_vndc_rate()
                 last_rate_time = now
@@ -106,7 +132,7 @@ if __name__ == "__main__":
                 market_limits = update_market_limits()
                 last_limits_time = now
 
-            vndc_rate = load_vndc_rate()
+            symbol_rates = load_vndc_rate()
 
             # ===== рынок (1 сек) =====
             tickers = get_tickers()
@@ -120,7 +146,7 @@ if __name__ == "__main__":
             for t in tickers:
                 symbol = t["symbol"]
 
-                price_usdt = convert_price(symbol, t["lastPrice"], vndc_rate)
+                price_usdt = convert_price(symbol, t["lastPrice"], symbol_rates)
 
                 fdata = funding_dict.get(symbol)
                 funding_rate = float(fdata["fundingRate"]) if fdata else None
@@ -128,15 +154,17 @@ if __name__ == "__main__":
 
                 max_lo_size = market_limits.get(symbol)
 
-                db.append({
-                    "symbol": symbol,
-                    "price_usdt": round(price_usdt, 8),
-                    "funding_rate": funding_rate,
-                    "funding_interval": funding_interval,
-                    "volume_usdt": float(t["volumeUsdt"]),
-                    "maxLoSize": max_lo_size,
-                    "timestamp": timestamp
-                })
+                db.append(
+                    {
+                        "symbol": symbol,
+                        "price_usdt": round(price_usdt, 8),
+                        "funding_rate": funding_rate,
+                        "funding_interval": funding_interval,
+                        "volume_usdt": float(t["volumeUsdt"]),
+                        "maxLoSize": max_lo_size,
+                        "timestamp": timestamp,
+                    }
+                )
 
             save_db(db)
             print(f"[MARKET UPDATED] {len(db)} symbols")
@@ -144,6 +172,4 @@ if __name__ == "__main__":
         except Exception as e:
             print("Ошибка:", e)
 
-
         time.sleep(MARKET_INTERVAL)
-
