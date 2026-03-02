@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Lightweight web dashboard for futures spread monitoring across exchanges.
 
-Default pair: Binance vs Onus.
+Base pair: ONUS vs every other discovered exchange.
 Designed to be extensible: every folder with *_futures_db.json is treated as an exchange source.
 """
 
@@ -246,6 +246,35 @@ def build_spreads(
     spreads.sort(key=lambda x: x["abs_spread_pct"], reverse=True)
     return spreads[:limit]
 
+def build_spreads_vs_base(
+    base_exchange: str,
+    exchange_rows: dict[str, list[dict[str, Any]]],
+    limit: int = 200,
+) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    """Build spreads for every exchange against one base exchange."""
+    if base_exchange not in exchange_rows:
+        return [], {}
+
+    base_rows = exchange_rows[base_exchange]
+    summary: dict[str, int] = {}
+    merged: list[dict[str, Any]] = []
+
+    for exchange, rows in exchange_rows.items():
+        if exchange == base_exchange:
+            continue
+
+        pair_rows = build_spreads(base_exchange, exchange, base_rows, rows, limit=max(limit, 2000))
+        summary[exchange] = len(pair_rows)
+
+        for row in pair_rows:
+            merged_row = dict(row)
+            merged_row["base_exchange"] = base_exchange
+            merged_row["compare_exchange"] = exchange
+            merged.append(merged_row)
+
+    merged.sort(key=lambda x: x["abs_spread_pct"], reverse=True)
+    return merged[:limit], summary
+
 
 HTML_PAGE = """<!doctype html>
 <html lang="ru">
@@ -302,11 +331,8 @@ HTML_PAGE = """<!doctype html>
   <div class="sub">Сравнение цен между биржами с подсказкой направления LONG/SHORT и фондированием.</div>
 
   <div class="toolbar">
-    <label>Левая биржа
-      <select id="left"></select>
-    </label>
-    <label>Правая биржа
-      <select id="right"></select>
+    <label>Базовая биржа
+      <input id="baseExchange" type="text" value="ONUS" disabled>
     </label>
     <label>Мин. |спред| %
       <input id="minSpread" type="number" step="0.01" value="0.2">
@@ -325,11 +351,12 @@ HTML_PAGE = """<!doctype html>
     <thead>
       <tr>
         <th>#</th>
+        <th>Биржа</th>
         <th>Coin</th>
         <th>LONG / SHORT</th>
-        <th class="num">Вход (left|right)</th>
+        <th class="num">Вход (ONUS|EXCH)</th>
         <th class="num">Спред %</th>
-        <th class="num">Фандинг (left|right)</th>
+        <th class="num">Фандинг (ONUS|EXCH)</th>
         <th class="num">Δ funding</th>
         <th class="num">Age, сек</th>
       </tr>
@@ -351,41 +378,29 @@ function clsBySign(v) {
   return v >= 0 ? 'pos' : 'neg';
 }
 
-function renderExchanges(exchanges) {
-  state.exchanges = exchanges;
-  const left = document.getElementById('left');
-  const right = document.getElementById('right');
-
-  const options = exchanges.map(e => `<option value="${e}">${e.toUpperCase()}</option>`).join('');
-  left.innerHTML = options;
-  right.innerHTML = options;
-
-  if (exchanges.includes('binance')) left.value = 'binance';
-  if (exchanges.includes('onus')) right.value = 'onus';
-
-  if (left.value === right.value && exchanges.length > 1) {
-    right.value = exchanges.find(e => e !== left.value);
-  }
-}
-
 async function loadMeta() {
   const res = await fetch('/api/exchanges');
   const data = await res.json();
-  renderExchanges(data.exchanges || []);
+  state.exchanges = data.exchanges || [];
 
-  if ((data.exchanges || []).length < 2) {
+  if (!state.exchanges.includes('onus')) {
     const meta = document.getElementById('meta');
-    meta.textContent = `Найдена только 1 биржа. Проверьте наличие файлов *_futures_db.json. Текущее: ${(data.exchanges || []).join(', ') || '—'}`;
+    meta.textContent = 'Ошибка: не найдена биржа ONUS (файл onus_futures_db.json).';
+    return;
+  }
+
+  const compareExchanges = state.exchanges.filter(e => e !== 'onus');
+  if (compareExchanges.length < 1) {
+    const meta = document.getElementById('meta');
+    meta.textContent = 'Нужна хотя бы 1 дополнительная биржа кроме ONUS.';
   }
 }
 
 async function loadTable() {
-  const left = document.getElementById('left').value;
-  const right = document.getElementById('right').value;
   const minSpread = document.getElementById('minSpread').value || '0';
   const limit = document.getElementById('limit').value || '200';
 
-  const url = `/api/spreads?left=${encodeURIComponent(left)}&right=${encodeURIComponent(right)}&min_spread=${encodeURIComponent(minSpread)}&limit=${encodeURIComponent(limit)}`;
+  const url = `/api/spreads?base=onus&min_spread=${encodeURIComponent(minSpread)}&limit=${encodeURIComponent(limit)}`;
   const res = await fetch(url);
   const data = await res.json();
 
@@ -397,6 +412,7 @@ async function loadTable() {
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td>${idx + 1}</td>
+      <td><b>${(r.compare_exchange || '').toUpperCase()}</b></td>
       <td><div><b>${r.coin}</b></div><div class="mono" style="color:#90a4bf">${r.left_symbol} | ${r.right_symbol}</div></td>
       <td>${r.long_short}</td>
       <td class="num mono">${r.left_price} | ${r.right_price}</td>
@@ -408,8 +424,14 @@ async function loadTable() {
     tbody.appendChild(tr);
   });
 
+  const byExchange = data.by_exchange || {};
+  const breakdown = Object.keys(byExchange)
+    .sort()
+    .map(name => `${name.toUpperCase()}: ${byExchange[name]}`)
+    .join(' · ');
+
   const meta = document.getElementById('meta');
-  meta.textContent = `Пара: ${data.pair || '-'} · Совпавших монет: ${data.total_matched ?? 0} · Показано: ${rows.length} · Обновлено: ${new Date().toLocaleTimeString()}`;
+  meta.textContent = `База: ${(data.base || 'ONUS').toUpperCase()} · Показано: ${rows.length} · Совпадения по биржам: ${breakdown || '—'} · Обновлено: ${new Date().toLocaleTimeString()}`;
 }
 
 async function bootstrap() {
@@ -463,38 +485,51 @@ class Handler(BaseHTTPRequestHandler):
             query = parse_qs(parsed.query)
             exchanges = discover_exchange_dbs()
 
-            left = query.get("left", ["binance"])[0].lower()
-            right = query.get("right", ["onus"])[0].lower()
+            base = query.get("base", ["onus"])[0].lower()
             limit = int(query.get("limit", ["200"])[0])
             min_spread = float(query.get("min_spread", ["0"])[0])
 
-            if left == right:
-                self._send_json({"error": "left and right exchanges must differ"}, status=400)
-                return
-            if left not in exchanges or right not in exchanges:
+            if base not in exchanges:
                 self._send_json(
                     {
-                        "error": "exchange not found",
+                        "error": "base exchange not found",
+                        "base": base,
                         "available": sorted(exchanges),
                     },
                     status=404,
                 )
                 return
 
+            compare_exchanges = [name for name in exchanges if name != base]
+            if not compare_exchanges:
+                self._send_json(
+                    {
+                        "error": "no exchanges to compare",
+                        "base": base,
+                        "available": sorted(exchanges),
+                    },
+                    status=400,
+                )
+                return
+
             try:
-                left_rows = load_rows(exchanges[left])
-                right_rows = load_rows(exchanges[right])
+                rows_map = {name: load_rows(path) for name, path in exchanges.items()}
             except (OSError, json.JSONDecodeError) as error:
                 self._send_json({"error": f"db read error: {error}"}, status=500)
                 return
 
-            rows = build_spreads(left, right, left_rows, right_rows, limit=max(10, min(limit, 2000)))
+            rows, summary = build_spreads_vs_base(
+                base_exchange=base,
+                exchange_rows=rows_map,
+                limit=max(10, min(limit, 2000)),
+            )
             filtered = [r for r in rows if r["abs_spread_pct"] >= min_spread]
 
             self._send_json(
                 {
-                    "pair": f"{left.upper()} vs {right.upper()}",
-                    "total_matched": len(rows),
+                    "base": base,
+                    "compared_exchanges": sorted(compare_exchanges),
+                    "by_exchange": summary,
                     "rows": filtered,
                 }
             )
