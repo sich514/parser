@@ -328,7 +328,7 @@ HTML_PAGE = """<!doctype html>
 <body>
 <div class="wrap">
   <h1>Спреды фьючерсов</h1>
-  <div class="sub">Сравнение цен между биржами с подсказкой направления LONG/SHORT и фондированием.</div>
+  <div class="sub">ONUS vs все остальные биржи (v2). Сравнение цен между биржами с подсказкой направления LONG/SHORT и фондированием.</div>
 
   <div class="toolbar">
     <label>Базовая биржа
@@ -400,7 +400,7 @@ async function loadTable() {
   const minSpread = document.getElementById('minSpread').value || '0';
   const limit = document.getElementById('limit').value || '200';
 
-  const url = `/api/spreads?base=onus&min_spread=${encodeURIComponent(minSpread)}&limit=${encodeURIComponent(limit)}`;
+  const url = `/api/spreads?min_spread=${encodeURIComponent(minSpread)}&limit=${encodeURIComponent(limit)}`;
   const res = await fetch(url);
   const data = await res.json();
 
@@ -455,6 +455,9 @@ class Handler(BaseHTTPRequestHandler):
         body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
@@ -463,6 +466,9 @@ class Handler(BaseHTTPRequestHandler):
         body = html.encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
@@ -485,7 +491,7 @@ class Handler(BaseHTTPRequestHandler):
             query = parse_qs(parsed.query)
             exchanges = discover_exchange_dbs()
 
-            base = query.get("base", ["onus"])[0].lower()
+            base = "onus"
             limit = int(query.get("limit", ["200"])[0])
             min_spread = float(query.get("min_spread", ["0"])[0])
 
