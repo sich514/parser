@@ -1,0 +1,15 @@
+[Unit]
+Description=Parser Stack (collectors + spread dashboard)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/parser
+ExecStart=/usr/bin/python3 /opt/parser/stack_runner.py --host 0.0.0.0 --port 8080
+Restart=always
+RestartSec=3
+User=ubuntu
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
